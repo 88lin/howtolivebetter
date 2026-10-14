@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-12T02:17:52.988512+00:00",
+  "baseUrl": "http://127.0.0.1:3000",
+  "scope": "all",
+  "indexedRoutes": 4601,
+  "sitemapRoutes": 417,
+  "tested": 4601,
+  "passed": 4601,
+  "failures": []
+}

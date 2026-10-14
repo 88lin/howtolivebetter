@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://howtolivebetter.net/search",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-hovk0vai\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/search']' returned non-zero exit status 22."
+  },
+  {
+    "url": "https://howtolivebetter.net/vi/ngày",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-ajhk_2i3\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/vi/ngày']' returned non-zero exit status 22."
+  },
+  {
+    "url": "https://howtolivebetter.net/vi/sách",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-omoxqa6y\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/vi/sách']' returned non-zero exit status 22."
+  },
+  {
+    "url": "https://howtolivebetter.net/vi/bài viết",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-mh3nxv27\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/vi/bài viết']' returned non-zero exit status 3."
+  },
+  {
+    "url": "https://howtolivebetter.net/vi/bảng điều khiển",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-2_puq90o\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/vi/bảng điều khiển']' returned non-zero exit status 3."
+  },
+  {
+    "url": "https://howtolivebetter.net/vi/ngày-quốc-gia",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '60', '--output', 'C:\\\\Users\\\\Computer\\\\AppData\\\\Local\\\\Temp\\\\how-fetch-6zyaj7zz\\\\response', '--write-out', '%{json}', 'https://howtolivebetter.net/vi/ngày-quốc-gia']' returned non-zero exit status 22."
+  }
+]

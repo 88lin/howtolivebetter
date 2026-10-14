@@ -1,0 +1,959 @@
+[
+  {
+    "source": "https://downloads.howtolivebetter.net/home-intro-zh-55d06f56.mp4",
+    "local": "public\\sites\\howtolivebetter\\downloads\\home-intro-zh-55d06f56.mp4",
+    "bytes": 3195587
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/es/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\es\\index.md",
+    "bytes": 12487,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/en/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\en\\index.md",
+    "bytes": 12525,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "source": "https://downloads.howtolivebetter.net/home-intro-ru-a01ef074.mp4",
+    "local": "public\\sites\\howtolivebetter\\downloads\\home-intro-ru-a01ef074.mp4",
+    "bytes": 3943878,
+    "type": "video/mp4"
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/ru/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\ru\\index.md",
+    "bytes": 20664,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/zh/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\zh\\index.md",
+    "bytes": 20248
+  },
+  {
+    "source": "https://howtolivebetter.net/apple-touch-icon.png",
+    "local": "public\\sites\\howtolivebetter\\apple-touch-icon.png",
+    "bytes": 3975
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2",
+    "bytes": 25960
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-cyrillic-wght-normal-DqGufNeO.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-cyrillic-wght-normal-DqGufNeO.woff2",
+    "bytes": 18748
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-greek-ext-wght-normal-DlzME5K_.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-greek-ext-wght-normal-DlzME5K_.woff2",
+    "bytes": 11232
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-greek-wght-normal-CkhJZR-_.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-greek-wght-normal-CkhJZR-_.woff2",
+    "bytes": 18996
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-latin-ext-wght-normal-DO1Apj_S.woff2",
+    "bytes": 85068
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-latin-wght-normal-Dx4kXJAl.woff2",
+    "bytes": 48256
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\inter-vietnamese-wght-normal-CBcvBZtf.woff2",
+    "bytes": 10252
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-400-italic-BDjkfMIE.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-400-italic-BDjkfMIE.woff",
+    "bytes": 26956
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-400-italic-Dx5Rrf3o.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-400-italic-Dx5Rrf3o.woff2",
+    "bytes": 21564
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-400-normal-B6A5kCEq.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-400-normal-B6A5kCEq.woff",
+    "bytes": 24756
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-400-normal-C42RasBZ.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-400-normal-C42RasBZ.woff2",
+    "bytes": 20108
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-700-normal-CLGq6Yj4.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-700-normal-CLGq6Yj4.woff2",
+    "bytes": 20436
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-700-normal-DFRs2Bxw.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-700-normal-DFRs2Bxw.woff",
+    "bytes": 25408
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-400-italic-BgvGgHFw.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-400-italic-BgvGgHFw.woff2",
+    "bytes": 23036
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-400-italic-C64zF-fj.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-400-italic-C64zF-fj.woff",
+    "bytes": 30200
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-400-normal-DehDhP4C.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-400-normal-DehDhP4C.woff2",
+    "bytes": 21272
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-400-normal-Dm_CMUlS.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-400-normal-Dm_CMUlS.woff",
+    "bytes": 27900
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-700-normal-CwmVKpN0.woff",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-700-normal-CwmVKpN0.woff",
+    "bytes": 28252
+  },
+  {
+    "source": "https://howtolivebetter.net/assets/libre-baskerville-latin-ext-700-normal-URU-TBJY.woff2",
+    "local": "public\\sites\\howtolivebetter\\assets\\libre-baskerville-latin-ext-700-normal-URU-TBJY.woff2",
+    "bytes": 21708
+  },
+  {
+    "source": "https://howtolivebetter.net/favicon.svg",
+    "local": "public\\sites\\howtolivebetter\\favicon.svg",
+    "bytes": 380
+  },
+  {
+    "source": "https://howtolivebetter.net/fonts/dm-sans-latin-ext-wght-normal-a5d38fe99f.woff2",
+    "local": "public\\sites\\howtolivebetter\\fonts\\dm-sans-latin-ext-wght-normal-a5d38fe99f.woff2",
+    "bytes": 18228
+  },
+  {
+    "source": "https://howtolivebetter.net/fonts/dm-sans-latin-wght-normal-9fea608a94.woff2",
+    "local": "public\\sites\\howtolivebetter\\fonts\\dm-sans-latin-wght-normal-9fea608a94.woff2",
+    "bytes": 36932
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/01-safety-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\01-safety-editorial-md.webp",
+    "bytes": 85598
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/01-safety-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\01-safety-editorial-thumb.webp",
+    "bytes": 54818
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/ja/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\ja\\index.md",
+    "bytes": 25245,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/01-safety-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\01-safety-editorial.webp",
+    "bytes": 187226
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/02-health-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\02-health-editorial-md.webp",
+    "bytes": 85438
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/02-health-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\02-health-editorial-thumb.webp",
+    "bytes": 47328
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/03-energy-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\03-energy-editorial-md.webp",
+    "bytes": 93852
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/02-health-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\02-health-editorial.webp",
+    "bytes": 185984
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/03-energy-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\03-energy-editorial-thumb.webp",
+    "bytes": 60680
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/03-energy-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\03-energy-editorial.webp",
+    "bytes": 192446
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/04-time-screenprint-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\04-time-screenprint-md.webp",
+    "bytes": 64162
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/04-time-screenprint-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\04-time-screenprint-thumb.webp",
+    "bytes": 43742
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/04-time-screenprint.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\04-time-screenprint.webp",
+    "bytes": 129810
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-1200-146eff23d1.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-1200-146eff23d1.avif",
+    "bytes": 51997
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-480-e8aafb60e3.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-480-e8aafb60e3.avif",
+    "bytes": 10417
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-900-e2f049c7f0.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-900-e2f049c7f0.avif",
+    "bytes": 27507
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-md.webp",
+    "bytes": 63754
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-sm.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-sm.webp",
+    "bytes": 23748
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage-thumb.webp",
+    "bytes": 42206
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/05-money-collage.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\05-money-collage.webp",
+    "bytes": 135054
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/06-counterlist-comic-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\06-counterlist-comic-md.webp",
+    "bytes": 103746
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/06-counterlist-comic-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\06-counterlist-comic-thumb.webp",
+    "bytes": 69954
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/06-counterlist-comic.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\06-counterlist-comic.webp",
+    "bytes": 188660
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/07-support-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\07-support-editorial-md.webp",
+    "bytes": 71370
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/07-support-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\07-support-editorial-thumb.webp",
+    "bytes": 48672
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/07-support-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\07-support-editorial.webp",
+    "bytes": 151318
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/08-legal-safety-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\08-legal-safety-editorial-md.webp",
+    "bytes": 59720
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/08-legal-safety-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\08-legal-safety-editorial-thumb.webp",
+    "bytes": 34508
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/08-legal-safety-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\08-legal-safety-editorial.webp",
+    "bytes": 134416
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/09-legal-boundaries-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\09-legal-boundaries-editorial-md.webp",
+    "bytes": 118926
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/09-legal-boundaries-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\09-legal-boundaries-editorial-thumb.webp",
+    "bytes": 74642
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/09-legal-boundaries-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\09-legal-boundaries-editorial.webp",
+    "bytes": 242188
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/10-relationships-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\10-relationships-editorial-md.webp",
+    "bytes": 73710
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/10-relationships-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\10-relationships-editorial.webp",
+    "bytes": 146688
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/10-relationships-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\10-relationships-editorial-thumb.webp",
+    "bytes": 49524
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/11-developer-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\11-developer-editorial-md.webp",
+    "bytes": 103012
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/11-developer-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\11-developer-editorial-thumb.webp",
+    "bytes": 64876
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/11-developer-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\11-developer-editorial.webp",
+    "bytes": 208670
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/12-business-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\12-business-editorial-md.webp",
+    "bytes": 78010
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/12-business-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\12-business-editorial-thumb.webp",
+    "bytes": 45322
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/12-business-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\12-business-editorial.webp",
+    "bytes": 171356
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/13-emergency-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\13-emergency-editorial-md.webp",
+    "bytes": 74992
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/13-emergency-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\13-emergency-editorial-thumb.webp",
+    "bytes": 43636
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/13-emergency-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\13-emergency-editorial.webp",
+    "bytes": 158216
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/14-account-security-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\14-account-security-editorial-md.webp",
+    "bytes": 71696
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/14-account-security-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\14-account-security-editorial-thumb.webp",
+    "bytes": 41054
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/14-account-security-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\14-account-security-editorial.webp",
+    "bytes": 161156
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/15-housing-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\15-housing-editorial-md.webp",
+    "bytes": 77380
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/15-housing-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\15-housing-editorial-thumb.webp",
+    "bytes": 52726
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/15-housing-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\15-housing-editorial.webp",
+    "bytes": 153626
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/16-chronic-care-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\16-chronic-care-editorial-md.webp",
+    "bytes": 78324
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/16-chronic-care-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\16-chronic-care-editorial-thumb.webp",
+    "bytes": 51306
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/16-chronic-care-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\16-chronic-care-editorial.webp",
+    "bytes": 161654
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/17-older-family-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\17-older-family-editorial-md.webp",
+    "bytes": 65984
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/17-older-family-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\17-older-family-editorial-thumb.webp",
+    "bytes": 38878
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/17-older-family-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\17-older-family-editorial.webp",
+    "bytes": 142056
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/18-parenting-costs-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\18-parenting-costs-editorial-md.webp",
+    "bytes": 94108
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/18-parenting-costs-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\18-parenting-costs-editorial-thumb.webp",
+    "bytes": 63236
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/18-parenting-costs-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\18-parenting-costs-editorial.webp",
+    "bytes": 200692
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/19-work-rights-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\19-work-rights-editorial-md.webp",
+    "bytes": 76624
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/19-work-rights-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\19-work-rights-editorial.webp",
+    "bytes": 154808
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/19-work-rights-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\19-work-rights-editorial-thumb.webp",
+    "bytes": 50272
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/20-newborn-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\20-newborn-editorial-md.webp",
+    "bytes": 50360
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/20-newborn-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\20-newborn-editorial-thumb.webp",
+    "bytes": 34548
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/20-newborn-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\20-newborn-editorial.webp",
+    "bytes": 116126
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/21-travel-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\21-travel-editorial-md.webp",
+    "bytes": 87244
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/21-travel-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\21-travel-editorial-thumb.webp",
+    "bytes": 56420
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/21-travel-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\21-travel-editorial.webp",
+    "bytes": 185292
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/22-relaxation-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\22-relaxation-editorial-md.webp",
+    "bytes": 100254
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/22-relaxation-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\22-relaxation-editorial-thumb.webp",
+    "bytes": 64208
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/22-relaxation-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\22-relaxation-editorial.webp",
+    "bytes": 195122
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/23-skills-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\23-skills-editorial-md.webp",
+    "bytes": 84598
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/23-skills-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\23-skills-editorial-thumb.webp",
+    "bytes": 53928
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/23-skills-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\23-skills-editorial.webp",
+    "bytes": 166724
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/24-healthcare-navigation-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\24-healthcare-navigation-editorial-md.webp",
+    "bytes": 78488
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/24-healthcare-navigation-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\24-healthcare-navigation-editorial-thumb.webp",
+    "bytes": 51648
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/24-healthcare-navigation-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\24-healthcare-navigation-editorial.webp",
+    "bytes": 161198
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/25-after-loss-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\25-after-loss-editorial-md.webp",
+    "bytes": 63694
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/25-after-loss-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\25-after-loss-editorial-thumb.webp",
+    "bytes": 42534
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/25-after-loss-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\25-after-loss-editorial.webp",
+    "bytes": 150378
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/26-website-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\26-website-editorial-md.webp",
+    "bytes": 64848
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/26-website-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\26-website-editorial-thumb.webp",
+    "bytes": 45714
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/26-website-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\26-website-editorial.webp",
+    "bytes": 128620
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/27-pregnancy-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\27-pregnancy-editorial-md.webp",
+    "bytes": 67320
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/27-pregnancy-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\27-pregnancy-editorial-thumb.webp",
+    "bytes": 43566
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/27-pregnancy-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\27-pregnancy-editorial.webp",
+    "bytes": 158866
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/28-body-respect-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\28-body-respect-editorial-md.webp",
+    "bytes": 66066
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/28-body-respect-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\28-body-respect-editorial-thumb.webp",
+    "bytes": 38956
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/28-body-respect-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\28-body-respect-editorial.webp",
+    "bytes": 143282
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/29-hard-times-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\29-hard-times-editorial-md.webp",
+    "bytes": 78766
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/29-hard-times-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\29-hard-times-editorial-thumb.webp",
+    "bytes": 51476
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/29-hard-times-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\29-hard-times-editorial.webp",
+    "bytes": 167010
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/30-schoolchildren-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\30-schoolchildren-editorial-md.webp",
+    "bytes": 107360
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/30-schoolchildren-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\30-schoolchildren-editorial-thumb.webp",
+    "bytes": 69940
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/30-schoolchildren-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\30-schoolchildren-editorial.webp",
+    "bytes": 202762
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/31-adult-paths-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\31-adult-paths-editorial-md.webp",
+    "bytes": 85074
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/31-adult-paths-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\31-adult-paths-editorial-thumb.webp",
+    "bytes": 55778
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/31-adult-paths-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\31-adult-paths-editorial.webp",
+    "bytes": 173240
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/32-study-abroad-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\32-study-abroad-editorial-md.webp",
+    "bytes": 89230
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/32-study-abroad-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\32-study-abroad-editorial-thumb.webp",
+    "bytes": 58568
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/32-study-abroad-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\32-study-abroad-editorial.webp",
+    "bytes": 177536
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/33-disability-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\33-disability-editorial-md.webp",
+    "bytes": 114292
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/33-disability-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\33-disability-editorial-thumb.webp",
+    "bytes": 72344
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/33-disability-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\33-disability-editorial.webp",
+    "bytes": 230870
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/34-home-medicines-editorial-md.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\34-home-medicines-editorial-md.webp",
+    "bytes": 91342
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/34-home-medicines-editorial-thumb.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\34-home-medicines-editorial-thumb.webp",
+    "bytes": 55030
+  },
+  {
+    "source": "https://howtolivebetter.net/images/book-chapters/34-home-medicines-editorial.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\book-chapters\\34-home-medicines-editorial.webp",
+    "bytes": 218308
+  },
+  {
+    "source": "https://howtolivebetter.net/images/life-value-editorial-1200.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\life-value-editorial-1200.webp",
+    "bytes": 149006
+  },
+  {
+    "source": "https://howtolivebetter.net/images/life-value-editorial-480.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\life-value-editorial-480.webp",
+    "bytes": 28384
+  },
+  {
+    "source": "https://howtolivebetter.net/images/life-value-editorial-800.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\life-value-editorial-800.webp",
+    "bytes": 62238
+  },
+  {
+    "source": "https://downloads.howtolivebetter.net/home-intro-en-6aa5d115.mp4",
+    "local": "public\\sites\\howtolivebetter\\downloads\\home-intro-en-6aa5d115.mp4",
+    "bytes": 3642631,
+    "type": "video/mp4"
+  },
+  {
+    "source": "https://downloads.howtolivebetter.net/home-intro-ja-47f7fcb9.mp4",
+    "local": "public\\sites\\howtolivebetter\\downloads\\home-intro-ja-47f7fcb9.mp4",
+    "bytes": 4062921,
+    "type": "video/mp4"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/reading-plan-1000-dcbe4d8fff.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\reading-plan-1000-dcbe4d8fff.avif",
+    "bytes": 32453
+  },
+  {
+    "source": "https://howtolivebetter.net/images/reading-plan-1000.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\reading-plan-1000.webp",
+    "bytes": 62984
+  },
+  {
+    "source": "https://howtolivebetter.net/images/reading-plan-360-8f212a1e5b.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\reading-plan-360-8f212a1e5b.avif",
+    "bytes": 6706
+  },
+  {
+    "source": "https://howtolivebetter.net/images/reading-plan-640-e8cc1837a8.avif",
+    "local": "public\\sites\\howtolivebetter\\images\\reading-plan-640-e8cc1837a8.avif",
+    "bytes": 15850
+  },
+  {
+    "source": "https://howtolivebetter.net/images/reading-plan-640.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\reading-plan-640.webp",
+    "bytes": 33042
+  },
+  {
+    "source": "https://howtolivebetter.net/ai/book/vi/index.md",
+    "local": "public\\sites\\howtolivebetter\\ai\\book\\vi\\index.md",
+    "bytes": 14869,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/national-day-cover-1200.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\national-day-cover-1200.webp",
+    "bytes": 137754,
+    "type": "image/webp"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/national-day-cover.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\national-day-cover.webp",
+    "bytes": 406144,
+    "type": "image/webp"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/national-day-cover-768.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\national-day-cover-768.webp",
+    "bytes": 76674,
+    "type": "image/webp"
+  },
+  {
+    "source": "https://downloads.howtolivebetter.net/home-intro-es-02e84400.mp4",
+    "local": "public\\sites\\howtolivebetter\\downloads\\home-intro-es-02e84400.mp4",
+    "bytes": 4289533,
+    "type": "video/mp4"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-1.png",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-1.png",
+    "bytes": 3060489,
+    "type": "image/png"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-3.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-3.jpg",
+    "bytes": 69850,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-2.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-2.jpg",
+    "bytes": 79699,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-4.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-4.jpg",
+    "bytes": 105866,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/bilibili-current.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\bilibili-current.jpg",
+    "bytes": 27982
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/douban-hd.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\douban-hd.jpg",
+    "bytes": 19155
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-5.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-5.jpg",
+    "bytes": 106908,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/facebook.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\facebook.svg",
+    "bytes": 542,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/moments-native.png",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\moments-native.png",
+    "bytes": 1794
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-6.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-6.jpg",
+    "bytes": 157525,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-9.png",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-9.png",
+    "bytes": 102769,
+    "type": "image/png"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/wechat.png",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\wechat.png",
+    "bytes": 100441
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-8.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-8.jpg",
+    "bytes": 130252,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/retrospective/evidence-7.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\retrospective\\evidence-7.jpg",
+    "bytes": 118658,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/xiaohongshu.png",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\xiaohongshu.png",
+    "bytes": 2482
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/zhihu.png",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\zhihu.png",
+    "bytes": 7045
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/logo.png",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\logo.png",
+    "bytes": 3496
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/instagram.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\instagram.svg",
+    "bytes": 2101,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/reddit.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\reddit.svg",
+    "bytes": 1233,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/x.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\x.svg",
+    "bytes": 299,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/whatsapp.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\whatsapp.svg",
+    "bytes": 1216,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/share/tiktok.svg",
+    "local": "public\\sites\\howtolivebetter\\images\\share\\tiktok.svg",
+    "bytes": 707,
+    "type": "image/svg+xml"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/member-post.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\member-post.webp",
+    "bytes": 86818,
+    "type": "image/webp"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/10.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\10.jpg",
+    "bytes": 5878,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/1.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\1.jpg",
+    "bytes": 5766,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/11.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\11.jpg",
+    "bytes": 6223,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/5.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\5.jpg",
+    "bytes": 7064,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/skills/howtolivebetter/SKILL.md",
+    "local": "public\\sites\\howtolivebetter\\skills\\howtolivebetter\\SKILL.md",
+    "bytes": 3072
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/4.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\4.jpg",
+    "bytes": 5179,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/8.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\8.jpg",
+    "bytes": 5085,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/xiaohongshu-case.webp",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\xiaohongshu-case.webp",
+    "bytes": 154720,
+    "type": "image/webp"
+  },
+  {
+    "source": "https://howtolivebetter.net/images/shengcai/members/9.jpg",
+    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\9.jpg",
+    "bytes": 6023,
+    "type": "image/jpeg"
+  },
+  {
+    "source": "https://howtolivebetter.net/jd-favicon.ico",
+    "local": "public\\sites\\howtolivebetter\\jd-favicon.ico",
+    "bytes": 25214,
+    "type": "image/vnd.microsoft.icon"
+  }
+]

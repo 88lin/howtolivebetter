@@ -47,3 +47,9 @@ next-env.d.ts
 
 # Local temp files
 temp/
+.tmp/
+.playwright-mcp/
+__pycache__/
+
+# Local accounts, sessions, checklist progress, and conversations
+.data/

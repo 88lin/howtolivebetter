@@ -1,0 +1,145 @@
+[
+  {
+    "check": "daily",
+    "result": {
+      "task": "让双手歇一分钟",
+      "heatDays": 365,
+      "persistent": true,
+      "undo": true
+    }
+  },
+  {
+    "check": "bingo",
+    "result": {
+      "shared": "http://127.0.0.1:3000/bingo/share?board=v1.03-01.04-04.14-06.05-01.04-10.03-17.04-08.14-02.04-15&done=d100000000",
+      "progress": {
+        "03-01": {
+          "status": "done"
+        },
+        "04-04": {
+          "status": "todo"
+        },
+        "14-06": {
+          "status": "todo"
+        },
+        "05-01": {
+          "status": "todo"
+        },
+        "04-10": {
+          "status": "todo"
+        },
+        "03-17": {
+          "status": "todo"
+        },
+        "04-08": {
+          "status": "todo"
+        },
+        "14-02": {
+          "status": "todo"
+        },
+        "04-15": {
+          "status": "todo"
+        }
+      }
+    }
+  },
+  {
+    "check": "bingo-share",
+    "result": {
+      "tiles": 9,
+      "snapshotDone": 1
+    }
+  },
+  {
+    "check": "quiz",
+    "result": {
+      "score": 85,
+      "review": 20,
+      "incorrect": 3,
+      "resume": true
+    }
+  },
+  {
+    "check": "quiz-share",
+    "result": {
+      "score": 85
+    }
+  },
+  {
+    "check": "checkup",
+    "result": {
+      "recommendations": 10,
+      "todo": 19
+    }
+  },
+  {
+    "check": "checkup-report",
+    "result": {
+      "items": 20
+    }
+  },
+  {
+    "check": "parents-checkup",
+    "result": {
+      "recommendations": 10
+    }
+  },
+  {
+    "check": "family-plans",
+    "result": {
+      "savedPerson": "妈妈",
+      "worksheetPersistent": true,
+      "calendar": true,
+      "listCount": 1
+    }
+  },
+  {
+    "check": "meditation",
+    "result": {
+      "pause": "02:58",
+      "finished": true,
+      "record": true
+    }
+  },
+  {
+    "check": "pomodoro",
+    "result": {
+      "taskPersistent": true,
+      "completedRound": true,
+      "csv": true
+    }
+  },
+  {
+    "check": "layoff",
+    "result": {
+      "Nplus1": 84000,
+      "calendar": true,
+      "persistent": true
+    }
+  },
+  {
+    "check": "layoff-pack",
+    "result": {
+      "sections": 8,
+      "compensationTemplate": true
+    }
+  },
+  {
+    "check": "language",
+    "result": {
+      "englishRestoredQuiz": true
+    }
+  },
+  {
+    "check": "mobile-overflow",
+    "result": {
+      "width": 390,
+      "routes": 7,
+      "overflow": false
+    }
+  },
+  {
+    "check": "runtime-errors",
+    "result": []
+  }
+]

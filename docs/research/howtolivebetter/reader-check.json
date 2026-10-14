@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "baseUrl": "http://localhost:3000",
+  "script": "scripts/verify-reader.py",
+  "browser": "Isolated headless Chromium 1243; no persistent browser profile",
+  "scope": "Actual browser clicks, inputs, reload, clipboard and downloaded CSV against the local Next.js clone",
+  "status": "passed",
+  "pageErrors": [],
+  "checks": [
+    {"route": "/book/01", "result": "Done/todo mutually exclusive; favorite retained; details expose real source URL; note saves and survives reload; share copies local /tip/01-01 URL"},
+    {"route": "/dashboard", "result": "One done/favorite counted; chapter 01 score 2/100; favorite/todo filters match state; downloaded CSV contains ID and saved note"},
+    {"route": "/book", "result": "Full-text search matches; unmatched query returns empty state; clearing search restores chapter grid; chapter 01 shows 43 entries; evidence A combines with chapter filter; exact very-high/high/standard tier labels and membership confirmed; multi-selection OR confirmed; disputed A-grade entries included; reset and original cost labels confirmed"},
+    {"route": "/top-50", "result": "Reading state shared with chapter; ignored action updates 2/50 progress; generated sharing URL reopens two selected items in a new page"},
+    {"route": "/glossary", "result": "BMI query returns one term and count; unmatched query shows empty state"},
+    {"route": "/en/book/01", "result": "Status marked in Chinese remains selected; translated details expand"},
+    {"route": "/en/book", "result": "Original value tier labels Very high / High / Standard confirmed in local filter menu"}
+  ],
+  "staticChecks": [
+    "ESLint passed for reader-behaviors.ts and reader-data.ts",
+    "State checks passed for status merge, unmarking while retaining favorite, weighted progress calculation, and how-progress events",
+    "Extractor validates 677 unique entries in each of six languages"
+  ],
+  "filterSourceVerification": {
+    "observedUrl": "https://howtolivebetter.net/book",
+    "referenceOnlyScript": "https://howtolivebetter.net/assets/book-D6T2LoDC.js",
+    "method": "Read-only public source page in an isolated browser; dropdown DOM inspected. Public route and localization scripts read as text only, never imported into the implementation.",
+    "labels": "All six languages' original filter text extracted into reader-data.ts as string data",
+    "costScale": {"money": {"0": 0, "少": 1, "多": 2}, "time": {"少": 0, "中": 1, "多": 2}, "effort": {"否": 0, "些": 1, "是": 2}},
+    "tiers": "Large benefit + cost 0: very_high; large benefit + cost <=2 or medium benefit + cost 0: high; other known combinations: standard",
+    "evidence": "A/B/C filters use the leading grade, including entries whose grade includes a dispute or guideline qualifier",
+    "combination": "OR within a group; AND across groups, search and chapter"
+  },
+  "limits": [
+    "Visual source/local comparison belongs to the main site validation",
+    "Top-50 sharing uses an encoded local query and preview, without the original site's remote share service",
+    "Full detail completeness depends on rerunning extract-tips.py after all source tip pages have downloaded"
+  ]
+}

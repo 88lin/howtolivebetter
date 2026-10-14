@@ -1,0 +1,1166 @@
+{
+  "more": {
+    "zh": [
+      {
+        "label": "冥想",
+        "href": "/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "番茄钟",
+        "href": "/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "实验室",
+        "href": "/lab",
+        "icon": "lucide-flask-conical"
+      },
+      {
+        "label": "行动九宫格",
+        "href": "/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "避坑检测",
+        "href": "/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "人生体检",
+        "href": "/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "被裁员时限管家",
+        "href": "/layoff",
+        "icon": "lucide-briefcase-business"
+      },
+      {
+        "label": "深度长文",
+        "href": "/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "实用选择",
+        "href": "/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "商品清单",
+        "href": "/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "术语表",
+        "href": "/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "更新日志",
+        "href": "/changelog",
+        "icon": "lucide-history"
+      }
+    ],
+    "en": [
+      {
+        "label": "Meditation",
+        "href": "/en/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "Pomodoro",
+        "href": "/en/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "Life Bingo",
+        "href": "/en/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "Pitfall check",
+        "href": "/en/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "Life checkup",
+        "href": "/en/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "Long reads",
+        "href": "/en/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "Practical choices",
+        "href": "/en/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "Products",
+        "href": "/en/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "Glossary",
+        "href": "/en/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "Changelog",
+        "href": "/en/changelog",
+        "icon": "lucide-history"
+      }
+    ],
+    "ru": [
+      {
+        "label": "Медитация",
+        "href": "/ru/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "Помодоро",
+        "href": "/ru/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "Бинго",
+        "href": "/ru/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "Проверка ловушек",
+        "href": "/ru/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "Проверка жизни",
+        "href": "/ru/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "Статьи",
+        "href": "/ru/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "Практичный выбор",
+        "href": "/ru/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "Товары",
+        "href": "/ru/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "Глоссарий",
+        "href": "/ru/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "Обновления",
+        "href": "/ru/changelog",
+        "icon": "lucide-history"
+      }
+    ],
+    "es": [
+      {
+        "label": "Meditación",
+        "href": "/es/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "Pomodoro",
+        "href": "/es/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "Bingo",
+        "href": "/es/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "Detector de trampas",
+        "href": "/es/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "Chequeo de vida",
+        "href": "/es/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "Artículos",
+        "href": "/es/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "Opciones prácticas",
+        "href": "/es/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "Productos",
+        "href": "/es/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "Glosario",
+        "href": "/es/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "Novedades",
+        "href": "/es/changelog",
+        "icon": "lucide-history"
+      }
+    ],
+    "ja": [
+      {
+        "label": "瞑想",
+        "href": "/ja/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "ポモドーロ",
+        "href": "/ja/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "ビンゴ",
+        "href": "/ja/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "落とし穴チェック",
+        "href": "/ja/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "人生チェック",
+        "href": "/ja/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "詳しく読む",
+        "href": "/ja/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "暮らしに合う選択",
+        "href": "/ja/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "商品リスト",
+        "href": "/ja/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "用語集",
+        "href": "/ja/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "更新履歴",
+        "href": "/ja/changelog",
+        "icon": "lucide-history"
+      }
+    ],
+    "vi": [
+      {
+        "label": "Thiền",
+        "href": "/vi/meditation",
+        "icon": "lucide-sprout"
+      },
+      {
+        "label": "Pomodoro",
+        "href": "/vi/pomodoro",
+        "icon": "lucide-timer"
+      },
+      {
+        "label": "Life Bingo",
+        "href": "/vi/bingo",
+        "icon": "lucide-grid2x2"
+      },
+      {
+        "label": "Kiểm tra điểm mù",
+        "href": "/vi/quiz",
+        "icon": "lucide-shield-check"
+      },
+      {
+        "label": "Cuộc kiểm tra cuộc sống",
+        "href": "/vi/checkup",
+        "icon": "lucide-scan-heart"
+      },
+      {
+        "label": "Bài viết dài",
+        "href": "/vi/articles",
+        "icon": "lucide-newspaper"
+      },
+      {
+        "label": "Lựa chọn thiết thực",
+        "href": "/vi/value",
+        "icon": "lucide-star"
+      },
+      {
+        "label": "Danh sách sản phẩm",
+        "href": "/vi/products",
+        "icon": "lucide-list-checks"
+      },
+      {
+        "label": "Từ điển",
+        "href": "/vi/glossary",
+        "icon": "lucide-book-open"
+      },
+      {
+        "label": "Phiên bản cập nhật",
+        "href": "/vi/changelog",
+        "icon": "lucide-history"
+      }
+    ]
+  },
+  "themes": {
+    "zh": [
+      "跟随系统",
+      "浅色模式",
+      "深色模式"
+    ],
+    "en": [
+      "System",
+      "Light",
+      "Dark"
+    ],
+    "ru": [
+      "Системная",
+      "Светлая",
+      "Тёмная"
+    ],
+    "es": [
+      "Sistema",
+      "Claro",
+      "Oscuro"
+    ],
+    "ja": [
+      "システム",
+      "ライト",
+      "ダーク"
+    ],
+    "vi": [
+      "Hệ thống",
+      "Ánh sáng",
+      "Tối"
+    ]
+  },
+  "icons": {
+    "lucide-sprout": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-sprout",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M7 20h10"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M10 20c5.5-2.5.8-6.4 3-10"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-timer": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-timer",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "10",
+            "x2": "14",
+            "y1": "2",
+            "y2": "2"
+          },
+          "children": []
+        },
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "12",
+            "x2": "15",
+            "y1": "14",
+            "y2": "11"
+          },
+          "children": []
+        },
+        {
+          "tag": "circle",
+          "attributes": {
+            "cx": "12",
+            "cy": "14",
+            "r": "8"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-flask-conical": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-flask-conical",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M6.453 15h11.094"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M8.5 2h7"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-grid2x2": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-grid2x2 lucide-grid-2x2",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 3v18"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M3 12h18"
+          },
+          "children": []
+        },
+        {
+          "tag": "rect",
+          "attributes": {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-shield-check": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-shield-check",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m9 12 2 2 4-4"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-scan-heart": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-scan-heart",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M11.246 16.657a1 1 0 0 0 1.508 0l3.57-4.101A2.75 2.75 0 1 0 12 9.168a2.75 2.75 0 1 0-4.324 3.388z"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M17 3h2a2 2 0 0 1 2 2v2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M21 17v2a2 2 0 0 1-2 2h-2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M3 7V5a2 2 0 0 1 2-2h2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M7 21H5a2 2 0 0 1-2-2v-2"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-briefcase-business": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-briefcase-business",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 12h.01"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M22 13a18.15 18.15 0 0 1-20 0"
+          },
+          "children": []
+        },
+        {
+          "tag": "rect",
+          "attributes": {
+            "width": "20",
+            "height": "14",
+            "x": "2",
+            "y": "6",
+            "rx": "2"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-newspaper": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-newspaper",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M15 18h-5"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M18 14h-8"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2"
+          },
+          "children": []
+        },
+        {
+          "tag": "rect",
+          "attributes": {
+            "width": "8",
+            "height": "4",
+            "x": "10",
+            "y": "6",
+            "rx": "1"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-star": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-star",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-list-checks": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-list-checks",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m3 17 2 2 4-4"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m3 7 2 2 4-4"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M13 6h8"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M13 12h8"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M13 18h8"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-book-open": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-book-open",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 7v14"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-history": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "17",
+        "height": "17",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-history",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M3 3v5h5"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 7v5l4 2"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-monitor": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-monitor",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "rect",
+          "attributes": {
+            "width": "20",
+            "height": "14",
+            "x": "2",
+            "y": "3",
+            "rx": "2"
+          },
+          "children": []
+        },
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "8",
+            "x2": "16",
+            "y1": "21",
+            "y2": "21"
+          },
+          "children": []
+        },
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "12",
+            "x2": "12",
+            "y1": "17",
+            "y2": "21"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-check": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "15",
+        "height": "15",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-check",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M20 6 9 17l-5-5"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-sun": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-sun",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "circle",
+          "attributes": {
+            "cx": "12",
+            "cy": "12",
+            "r": "4"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 2v2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 20v2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m4.93 4.93 1.41 1.41"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m17.66 17.66 1.41 1.41"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M2 12h2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M20 12h2"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m6.34 17.66-1.41 1.41"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "m19.07 4.93-1.41 1.41"
+          },
+          "children": []
+        }
+      ]
+    },
+    "lucide-moon": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-moon",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"
+          },
+          "children": []
+        }
+      ]
+    },
+    "sound-muted": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-volume-x",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"
+          },
+          "children": []
+        },
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "22",
+            "x2": "16",
+            "y1": "9",
+            "y2": "15"
+          },
+          "children": []
+        },
+        {
+          "tag": "line",
+          "attributes": {
+            "x1": "16",
+            "x2": "22",
+            "y1": "9",
+            "y2": "15"
+          },
+          "children": []
+        }
+      ]
+    },
+    "sound-enabled": {
+      "tag": "svg",
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "class": "lucide lucide-volume2 lucide-volume-2",
+        "aria-hidden": "true"
+      },
+      "children": [
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M16 9a5 5 0 0 1 0 6"
+          },
+          "children": []
+        },
+        {
+          "tag": "path",
+          "attributes": {
+            "d": "M19.364 18.364a9 9 0 0 0 0-12.728"
+          },
+          "children": []
+        }
+      ]
+    }
+  },
+  "classes": {
+    "more": "z-50 max-h-(--available-height) w-(--anchor-width) min-w-32 origin-(--transform-origin) overflow-x-hidden overflow-y-auto rounded-lg bg-popover p-1 text-popover-foreground shadow-md ring-1 ring-foreground/10 duration-100 outline-none data-[side=bottom]:slide-in-from-top-2 data-[side=inline-end]:slide-in-from-left-2 data-[side=inline-start]:slide-in-from-right-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95 data-closed:animate-out data-closed:overflow-hidden data-closed:fade-out-0 data-closed:zoom-out-95 life-more-menu",
+    "item": "group/dropdown-menu-item relative flex cursor-default items-center gap-2 rounded-md px-2 py-2 text-sm font-normal outline-hidden select-none focus:bg-accent focus:text-accent-foreground not-data-[variant=destructive]:focus:**:text-accent-foreground data-inset:pl-7 data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 data-[variant=destructive]:focus:text-destructive dark:data-[variant=destructive]:focus:bg-destructive/20 data-disabled:pointer-events-none data-disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 data-[variant=destructive]:*:[svg]:text-destructive",
+    "theme": "z-50 max-h-(--available-height) w-(--anchor-width) min-w-32 origin-(--transform-origin) overflow-x-hidden overflow-y-auto rounded-lg bg-popover p-1 text-popover-foreground shadow-md ring-1 ring-foreground/10 duration-100 outline-none data-[side=bottom]:slide-in-from-top-2 data-[side=inline-end]:slide-in-from-left-2 data-[side=inline-start]:slide-in-from-right-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95 data-closed:animate-out data-closed:overflow-hidden data-closed:fade-out-0 data-closed:zoom-out-95 life-theme-menu"
+  },
+  "languages": [
+    {
+      "code": "zh",
+      "label": "中文"
+    },
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "ru",
+      "label": "Русский"
+    },
+    {
+      "code": "es",
+      "label": "Español"
+    },
+    {
+      "code": "ja",
+      "label": "日本語"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    }
+  ]
+}

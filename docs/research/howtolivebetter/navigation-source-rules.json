@@ -1,0 +1,54 @@
+{
+  "source": "https://howtolivebetter.net",
+  "scroll": {
+    "0": "life-header life-header-dark ",
+    "1": "life-header life-header-dark ",
+    "20": "life-header life-header-dark ",
+    "32": "life-header life-header-dark ",
+    "36": "life-header life-header-dark ",
+    "40": "life-header life-header-dark ",
+    "48": "life-header life-header-dark ",
+    "64": "life-header life-header-dark "
+  },
+  "menus": {
+    "more": {
+      "font": "\"Inter Variable\", Inter, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, Arial, sans-serif",
+      "rect": {
+        "x": 881,
+        "y": 61,
+        "width": 212,
+        "height": 484,
+        "top": 61,
+        "right": 1093,
+        "bottom": 545,
+        "left": 881
+      }
+    },
+    "theme": {
+      "font": "\"Inter Variable\", Inter, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, Arial, sans-serif",
+      "rect": {
+        "x": 1009,
+        "y": 59,
+        "width": 176,
+        "height": 123.6875,
+        "top": 59,
+        "right": 1185,
+        "bottom": 182.6875,
+        "left": 1009
+      }
+    },
+    "language": {
+      "font": "\"Inter Variable\", Inter, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, Arial, sans-serif",
+      "rect": {
+        "x": 1111,
+        "y": 60,
+        "width": 176,
+        "height": 233.375,
+        "top": 60,
+        "right": 1287,
+        "bottom": 293.375,
+        "left": 1111
+      }
+    }
+  }
+}

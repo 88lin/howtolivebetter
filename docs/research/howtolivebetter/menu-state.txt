@@ -1,0 +1,3 @@
+{
+  "menu": "<nav class=\"life-nav\" aria-label=\"主导航\"><a class=\"life-nav-link \" href=\"/book\"><span>阅读全书</span></a><a class=\"life-nav-link \" href=\"/top-50\"><span>精选 50 条</span></a><a class=\"life-nav-link \" href=\"/daily\"><span>每日任务</span></a><a class=\"life-nav-link \" href=\"/dashboard\"><span>我的清单</span></a><button type=\"button\" class=\"life-nav-link life-nav-more \" aria-haspopup=\"menu\" aria-expanded=\"false\"><span>更多</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></nav>"
+}

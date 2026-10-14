@@ -1,0 +1,112 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "path": "/book",
+      "status": 200,
+      "title": "《高性价比人生指南》免费在线阅读｜677 条循证建议",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/book/01",
+      "status": 200,
+      "title": "不要早死 | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/articles/36-questions",
+      "status": 200,
+      "title": "36个问题：把闲聊变成一次深入交谈 | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/value",
+      "status": 200,
+      "title": "高性价比运动、食物与 AI，怎么选？ | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/en",
+      "status": 200,
+      "title": "High-Value Guide to Better Living | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/ru/book",
+      "status": 200,
+      "title": "Читайте HowToLiveBetter бесплатно | 677 совета с оценкой доказательств",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/ja/daily",
+      "status": 200,
+      "title": "今日のタスク | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/es/quiz",
+      "status": 200,
+      "title": "Detector de trampas | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/vi/meditation",
+      "status": 200,
+      "title": "Thiền | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/products",
+      "status": 200,
+      "title": "京东商品清单 | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/shengcaiyoushu",
+      "status": 200,
+      "title": "生财有术推荐：找思路，动手做副业 | HowToLiveBetter",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/national-day",
+      "status": 200,
+      "title": "国庆出游指南｜2026 存档",
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "shell": "carousel, desktop/mobile menu, keyboard dismissal, theme, language, FAQ passed",
+  "advertise": "period selection updates the status and contact link; no email sent"
+}

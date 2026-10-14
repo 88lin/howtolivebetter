@@ -1,0 +1,33 @@
+{
+  "baseUrl": "http://127.0.0.1:3000",
+  "passed": [
+    "Source scroll threshold at 72px, floating geometry and reverse reset",
+    "More, language and theme menu position, size and font match source",
+    "Keyboard item navigation, Escape focus return and outside dismissal",
+    "Theme checkmark, dark mode and sound icon state survive reload",
+    "390/768/1440/1920 widths; mobile menu matches source and avoids bottom tabs",
+    "All six languages use source menu labels, ordering, icons and local destinations",
+    "Language switching navigates a real chapter while retaining query and anchor"
+  ],
+  "pageErrors": [],
+  "menus": {
+    "more": {
+      "x": 881,
+      "y": 61,
+      "width": 212,
+      "height": 484
+    },
+    "language": {
+      "x": 1111,
+      "y": 60,
+      "width": 176,
+      "height": 233.375
+    },
+    "theme": {
+      "x": 1009,
+      "y": 59,
+      "width": 176,
+      "height": 123.6875
+    }
+  }
+}
