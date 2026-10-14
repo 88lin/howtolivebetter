@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, type ReactNode } from "react";
 import { installNavigation } from "./navigation-behaviors";
+import { isStaticPreview, sitePath } from "@/lib/site-path";
 
 export function SiteRuntime({ children, route, lang }: { children: ReactNode; route: string; lang: string }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -42,7 +43,7 @@ export function SiteRuntime({ children, route, lang }: { children: ReactNode; ro
     cards.forEach((card) => {
       const img = card.querySelector("img");
       const chapter = card.querySelector("a")?.getAttribute("href")?.match(/book\/(\d+)/)?.[1];
-      if (img && !img.getAttribute("src") && chapter && chapterArt[chapter]) img.src = `/sites/howtolivebetter/images/book-chapters/${chapterArt[chapter]}.webp`;
+      if (img && !img.getAttribute("src") && chapter && chapterArt[chapter]) img.src = sitePath(`/sites/howtolivebetter/images/book-chapters/${chapterArt[chapter]}.webp`);
     });
     let slide = 0;
     let carouselInteracted = false;
@@ -75,7 +76,7 @@ export function SiteRuntime({ children, route, lang }: { children: ReactNode; ro
       const intro = video.matches(".life-intro-video-player");
       video.controls = !intro;
       video.preload = intro ? "none" : "metadata";
-      if (intro) video.poster = `/sites/howtolivebetter/videos/home-intro-${lang === "vi" ? "en" : lang}.webp`;
+      if (intro) video.poster = sitePath(`/sites/howtolivebetter/videos/home-intro-${lang === "vi" ? "en" : lang}.webp`);
       const overlay = video.parentElement?.querySelector<HTMLElement>(".life-intro-video-play");
       video.addEventListener("play", () => { video.controls = true; if (overlay) overlay.hidden = true; }, { signal });
     });
@@ -104,7 +105,10 @@ export function SiteRuntime({ children, route, lang }: { children: ReactNode; ro
         const el = dialog(isChinese ? "加入社群" : "Join the community", isChinese ? "社群由原站维护，可前往原站查看最新的加入方式。" : "The community is maintained by the original website.");
         const a = document.createElement("a"); a.className = "local-action"; a.textContent = isChinese ? "查看原站社群" : "Visit the original website"; a.href = "https://howtolivebetter.net/contact"; a.target = "_blank"; a.rel = "noopener noreferrer"; el.append(a);
       } else if (button.matches(".privacy-settings-button")) {
-        const el = dialog(isChinese ? "隐私设置" : "Privacy settings", isChinese ? "本地版本不加载原站广告追踪或统计脚本。清单、任务与练习记录保存在此浏览器；登录本地账号后可同步到当前服务器。" : "This local edition does not load the source website's analytics or advertising trackers. Your progress is saved in this browser, with optional sync to this server.");
+        const privacy = isStaticPreview
+          ? (isChinese ? "此预览不加载原站广告追踪或统计脚本。清单、任务与练习记录保存在此浏览器。" : "This preview does not load the source website's analytics or advertising trackers. Progress is saved in this browser.")
+          : (isChinese ? "本地版本不加载原站广告追踪或统计脚本。清单、任务与练习记录保存在此浏览器；登录本地账号后可同步到当前服务器。" : "This local edition does not load the source website's analytics or advertising trackers. Your progress is saved in this browser, with optional sync to this server.");
+        const el = dialog(isChinese ? "隐私设置" : "Privacy settings", privacy);
         const ok = document.createElement("button"); ok.textContent = isChinese ? "知道了" : "Got it"; ok.onclick = () => el.close(); el.append(ok);
       } else if (button.closest(".life-quick-share, .social-share-platforms") || button.matches(".sc-secondary-button")) {
         const text = `${document.title}\n${location.href}`;

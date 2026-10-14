@@ -14,7 +14,7 @@
 4. 有变化时检查内容、语言数据和站内资源／路由，再运行 ESLint、TypeScript 和生产构建。
 5. 全部通过后，用仓库内置 `GITHUB_TOKEN` 提交并推送 `master`。不需要额外的个人令牌。不强制推送；如果有人同时更新主分支，当前推送会安全失败，下一次从最新主分支重新生成。
 
-通过 `GITHUB_TOKEN` 推送通常不会再触发其他 push 工作流，因此同步工作流自身包含完整构建验证。这里不负责服务器部署，也不会更新你电脑上的 checkout；本地需要 `git pull --ff-only`，运行中的生产服务需重新构建并启动。
+通过 `GITHUB_TOKEN` 推送通常不会再触发其他 push 工作流，因此同步工作流自身包含完整构建验证。`Deploy frontend preview` 通过 `workflow_run` 监听本同步任务成功结束，随后从最新 `master` 构建并发布 [GitHub Pages 预览](https://88lin.github.io/howtolivebetter/)，无内容变化的成功运行也会触发预览部署。完整 Node 服务器的部署与本地 checkout 不由该任务更新；本地需要 `git pull --ff-only`，运行中的生产服务需重新构建并启动。
 
 ## 同步范围
 

@@ -1,3 +1,5 @@
+import { isStaticPreview, sitePath } from "@/lib/site-path";
+
 type User = { id: string; email: string; name: string };
 type Entry = { status?: "done" | "todo" | "ignored"; favorite?: boolean; note?: string };
 type Progress = Record<string, Entry>;
@@ -44,7 +46,7 @@ function element<K extends keyof HTMLElementTagNameMap>(tag: K, className = "", 
 
 function link(text: string, href: string, className = "local-service-link") {
   const node = element("a", className, text);
-  node.href = href;
+  node.href = sitePath(href);
   return node;
 }
 
@@ -108,7 +110,11 @@ export function installServiceBehaviors(root: HTMLElement, route: string): () =>
   root.append(styles);
 
   async function api<T>(endpoint: string, data?: unknown, method = "POST"): Promise<T> {
-    const response = await fetch(`/api/local/${endpoint}`, {
+    if (isStaticPreview) {
+      if (endpoint === "auth" && data === undefined) return { user: null } as T;
+      throw new Error(words("这是前端预览，登录与在线提交暂不可用。阅读标记仍可保存在此浏览器。", "This is a frontend preview. Sign-in and online submissions are unavailable; reading progress is saved in this browser."));
+    }
+    const response = await fetch(sitePath(`/api/local/${endpoint}`), {
       method: data === undefined ? "GET" : method,
       credentials: "same-origin", cache: "no-store", signal,
       headers: data === undefined ? undefined : { "Content-Type": "application/json" },
@@ -248,7 +254,7 @@ export function installServiceBehaviors(root: HTMLElement, route: string): () =>
     if (!user) return;
     root.querySelectorAll<HTMLAnchorElement>('header a[href*="sign-in"]').forEach((anchor) => {
       anchor.textContent = user!.name;
-      anchor.href = `${prefix}/sign-in`;
+      anchor.href = sitePath(`${prefix}/sign-in`);
       anchor.title = words("本地账号管理", "Local account");
     });
   }
@@ -264,6 +270,9 @@ export function installServiceBehaviors(root: HTMLElement, route: string): () =>
     heading.append(element("span", "life-eyebrow", "LOCAL ACCOUNT"), h2,
       element("p", "", words("账号仅用于这个项目，与原站账号独立。无需邮箱验证码，请使用独立密码。", "This account belongs to this project, separate from the original site. No email verification; use a separate password.")));
     panel.append(heading);
+    if (isStaticPreview) {
+      panel.append(element("p", "local-service-note", words("前端界面预览：可以查看表单，登录与注册不会发送请求。", "Frontend preview: these forms do not send sign-in or registration requests.")));
+    }
     if (user) {
       panel.append(element("p", "local-service-note", `${user.name} · ${user.email}`));
       const actions = element("div", "local-service-actions");
@@ -507,7 +516,7 @@ export function installServiceBehaviors(root: HTMLElement, route: string): () =>
     if (sidebar) sidebar.textContent = words("保留原站公开内容；本地新增主题和回复保存在当前服务器，不会发布到原站。", "Public source content is preserved. New local topics and replies stay on this server.");
     const create = main.querySelector<HTMLAnchorElement>(".lab-hero > a");
     if (create) {
-      create.href = `${prefix}/lab?compose=1`;
+      create.href = sitePath(`${prefix}/lab?compose=1`);
       create.addEventListener("click", (event) => {
         event.preventDefault();
         composeTopic(main);

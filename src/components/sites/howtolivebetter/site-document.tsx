@@ -1,5 +1,6 @@
 import { createElement, type ReactNode } from "react";
 import type { DocumentNode } from "@/lib/site-content";
+import { siteCss, sitePath, siteSrcSet } from "@/lib/site-path";
 
 const voidTags = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "param", "source", "track", "wbr"]);
 const skippedTags = new Set(["script", "iframe", "object", "embed"]);
@@ -11,6 +12,13 @@ export function renderDocumentNode(node: DocumentNode | string, key: number | st
   // The source removes the duplicate SSR privacy control after its footer mounts.
   if (node.props.className === "privacy-control") return null;
   const props: Record<string, unknown> = { ...node.props, key };
+  for (const name of ["href", "src", "poster"]) {
+    if (typeof props[name] === "string") props[name] = sitePath(props[name]);
+  }
+  if (typeof props.srcSet === "string") props.srcSet = siteSrcSet(props.srcSet);
+  if (props.style && typeof props.style === "object") {
+    props.style = Object.fromEntries(Object.entries(props.style).map(([name, value]) => [name, typeof value === "string" ? siteCss(value) : value]));
+  }
   if (props.inert === "") props.inert = true;
   if ("checked" in props) { props.defaultChecked = props.checked; delete props.checked; }
   if ("value" in props && ["input", "textarea", "select"].includes(node.tag)) { props.defaultValue = props.value; delete props.value; }

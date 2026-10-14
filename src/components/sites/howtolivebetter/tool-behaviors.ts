@@ -4,6 +4,7 @@ import {
 } from "./tool-data";
 import { loadTips, localePath, readProgress, routeLocale, updateProgress, type Tip } from "./reader-data";
 import QRCode from "qrcode";
+import { sitePath } from "@/lib/site-path";
 
 type Cleanup = () => void;
 type Child = Node | string | null | undefined;
@@ -24,7 +25,7 @@ function button(text: string, action: string, className = "life-button"): HTMLBu
 
 function link(text: string, href: string, className = "life-text-link"): HTMLAnchorElement {
   const node = element("a", className, text);
-  node.href = href;
+  node.href = sitePath(href);
   return node;
 }
 
@@ -228,7 +229,7 @@ function installDaily(scope: ToolScope): void {
     const meta = copy!.querySelector(".daily-meta");
     meta?.replaceChildren(element("span", "", dateKey()), ...(task ? [element("span", "", scope.text("life_daily_minutes", { count: task.minutes }))] : []));
     const image = main.querySelector<HTMLImageElement>(".daily-art img");
-    if (image && chapterImages[task?.chapter || "22"]) image.src = chapterImages[task?.chapter || "22"];
+    if (image && chapterImages[task?.chapter || "22"]) image.src = sitePath(chapterImages[task?.chapter || "22"]);
     runtimeActions.replaceChildren();
     shareRow.replaceChildren();
     if (task) {

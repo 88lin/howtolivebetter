@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import {
   loadTips,
   localePath,
@@ -278,7 +279,7 @@ export function installReaderBehaviors(root: HTMLElement, route: string): () => 
     for (const tip of matched) {
       const state = progress[tip.id];
       const row = element("a", "life-dashboard-item");
-      row.href = tip.href;
+      row.href = sitePath(tip.href);
       row.append(element("span", "life-dashboard-item-num", tip.id));
       const body = element("div");
       body.append(element("strong", "", tip.title), element("small", "", state?.note || tip.chapterTitle));
@@ -342,7 +343,7 @@ export function installReaderBehaviors(root: HTMLElement, route: string): () => 
     if (!matched.length) fragment.append(element("p", "life-empty-list", filterLabels.empty));
     for (const tip of matched) {
       const row = element("a", "life-result-row");
-      row.href = tip.href;
+      row.href = sitePath(tip.href);
       row.append(element("span", "", tip.id));
       const body = element("div");
       body.append(element("h3", "", tip.title), element("p", "", tip.summary));

@@ -1,4 +1,5 @@
 import navigation from "@/content/howtolivebetter/navigation.json";
+import { sitePath } from "@/lib/site-path";
 
 interface IconNode {
   tag: string;
@@ -111,7 +112,7 @@ export function installNavigation(root: HTMLElement, route: string, language: st
       element.className = navigation.classes.item;
       element.setAttribute("role", "menuitem");
       element.tabIndex = -1;
-      if (element instanceof HTMLAnchorElement) element.href = href!;
+      if (element instanceof HTMLAnchorElement) element.href = sitePath(href!);
       else { element.setAttribute("type", "button"); element.addEventListener("click", () => { action?.(); closeMenu(true); }, { signal }); }
       if (icon) element.append(sourceIcon(icon));
       if (selected) {

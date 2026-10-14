@@ -4,6 +4,21 @@
 
 初次迁移收录 4,601 个路由和 235 个本地素材／数据文件。中文建议及详情页随原书更新而增加，当前版本、章节数和条目数见 [同步记录](src/content/howtolivebetter/book-sync.json)，完整路径见 [路由索引](src/content/howtolivebetter/routes.json)。英语、俄语、西班牙语、日语、越南语各保留 34 章、677 条建议的翻译快照。
 
+## GitHub Pages 前端预览
+
+预览地址：**[88lin.github.io/howtolivebetter](https://88lin.github.io/howtolivebetter/)**。
+
+预览包含全部页面、图片、字体及浏览器交互；阅读标记、每日任务等保存在当前浏览器。登录、注册、清单云同步、论坛提交和双人问答需要服务器，Pages 只展示相关界面并提示预览限制，不发送这些 API 请求。完整服务继续使用下方的正常启动方式。
+
+推送到 `master` 后，[Deploy frontend preview](.github/workflows/pages-preview.yml) 自动构建并发布。每日中文书籍同步成功结束后，也会触发一次预览部署，因此中文内容更新会自动出现在预览中。工作流支持手动运行。
+
+```powershell
+npm run build:pages
+python scripts/verify-pages-preview.py
+```
+
+静态文件输出到 `.tmp/pages-preview/out`，默认部署子路径为 `/howtolivebetter`；验证脚本自动启动严格的静态服务器并使用隔离 Chromium。构建、路径配置、发布体积与前端路由约束见 [Pages 说明](docs/pages-preview.md)。
+
 ## 自动同步中文原书
 
 [Sync Chinese book](.github/workflows/sync-book.yml) 每天 **北京时间 08:23** 检查原书 `main` 分支，也支持在 GitHub Actions 中手动运行。新增与修订会更新中文阅读目录、章节、建议详情、精选中的原文以及首页数量。通过编号检查、内容验证、ESLint、TypeScript 和生产构建后，工作流自动提交到本仓库 `master`；无内容变化时不提交。
@@ -86,7 +101,7 @@ npm start
 
 | 位置 | 用途 |
 | --- | --- |
-| `src/app/[[...slug]]/page.tsx` | 按路径读取内容并在服务端渲染，不逐条生成静态构建文件 |
+| `src/app/[[...slug]]/page.tsx` | 正常模式按路径在服务端渲染；Pages 构建在隔离目录中生成所有静态页面 |
 | `src/content/howtolivebetter/pages/` | 页面标题、描述、样式地址和可编辑语义节点；文件名用 `~` 对应路径分隔符 |
 | `src/components/sites/howtolivebetter/` | 页面渲染器，以及导航、阅读、工具和本地服务的交互实现 |
 | `src/lib/local-store.ts`、`src/app/api/local/` | 独立账户、会话、清单、论坛与问答服务 |

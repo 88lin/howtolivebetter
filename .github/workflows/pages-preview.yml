@@ -1,0 +1,69 @@
+name: Deploy frontend preview
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Sync Chinese book]
+    types: [completed]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout current preview source
+        uses: actions/checkout@v7
+        with:
+          ref: master
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check source
+        run: npm run lint && npm run typecheck
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build frontend preview
+        run: npm run build:pages
+        env:
+          PAGES_BASE_PATH: /howtolivebetter
+
+      - name: Set up preview browser checks
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+
+      - name: Verify static navigation and interactions
+        run: python scripts/verify-pages-preview.py
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .tmp/pages-preview/out
+
+      - name: Publish preview
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,3 +1,5 @@
+import { sitePath } from "@/lib/site-path";
+
 export type ProgressStatus = "done" | "todo" | "ignored";
 
 export interface TipProgress {
@@ -38,14 +40,14 @@ export function routeLocale(route: string): string {
 }
 
 export function localePath(locale: string, path: string): string {
-  return (locale === "zh" ? "" : `/${locale}`) + path;
+  return sitePath((locale === "zh" ? "" : `/${locale}`) + path);
 }
 
 export function loadTips(locale = "zh"): Promise<Tip[]> {
   const language = locales.has(locale) ? locale : "zh";
   let request = tipRequests.get(language);
   if (!request) {
-    request = fetch(`/sites/howtolivebetter/tips-${language}.json`)
+    request = fetch(sitePath(`/sites/howtolivebetter/tips-${language}.json`))
       .then((response) => {
         if (!response.ok) throw new Error(`Unable to load reading data (${response.status})`);
         return response.json() as Promise<Tip[]>;
