@@ -19,7 +19,7 @@ python scripts/verify-book-sync.py
 npm run check
 ```
 
-脚本需要 Python 3.10+ 和 Git，自动获取原书的干净临时副本，只解析 Markdown，不运行上游代码。GitHub Actions 需要账户额度和账单状态正常。**截至首次配置，GitHub 因账号付款／消费限额问题未启动云端任务**；本地首次同步已验证，恢复额度后可在 Actions 手动运行一次。运行规则和故障处理见 [同步说明](docs/book-sync.md)。
+脚本需要 Python 3.10+ 和 Git，自动获取原书的干净临时副本，只解析 Markdown，不运行上游代码。**2026-10-14 已在 GitHub Actions 成功试跑**：[运行记录](https://github.com/88lin/howtolivebetter/actions/runs/38564518028)。本次原书无新内容，任务正确跳过提交；同一代码版本的常规 CI 也已通过。运行规则和故障处理见 [同步说明](docs/book-sync.md)。
 
 ## 启动
 
