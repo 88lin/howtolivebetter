@@ -4,6 +4,8 @@
 
 初次迁移收录 4,601 个路由和 235 个本地素材／数据文件。中文建议及详情页随原书更新而增加，当前版本、章节数和条目数见 [同步记录](src/content/howtolivebetter/book-sync.json)，完整路径见 [路由索引](src/content/howtolivebetter/routes.json)。英语、俄语、西班牙语、日语、越南语各保留 34 章、677 条建议的翻译快照。
 
+本站当前不展示广告。原站快照里内嵌的付费推广位、招租页和合作品牌推荐已移除；没有广告 SDK、广告投放配置或运行时广告请求。广告页面导入规则和检查命令见 [广告清理说明](docs/advertising.md)。
+
 ## GitHub Pages 前端预览
 
 预览地址：**[88lin.github.io/howtolivebetter](https://88lin.github.io/howtolivebetter/)**。
@@ -81,7 +83,7 @@ npm start
 | `/meditation`、`/pomodoro`、`/layoff` | 冥想、番茄钟、失业行动包、练习记录与日历导出 |
 | `/articles/*`、`/value/*`、`/products`、`/national-day` | 长文、实用选择、商品清单与旅行指南存档 |
 | `/sign-in`、`/sign-up`、`/lab`、`/lab/new`、`/together` | 独立的本地账户、清单同步、论坛发帖回复与双人问答 |
-| `/about`、`/contact`、`/advertise` 等 | 介绍、联系、广告说明、历史与政策页面 |
+| `/about`、`/contact` 等 | 介绍、联系、历史与政策页面 |
 
 完整路径列表在 [routes.json](src/content/howtolivebetter/routes.json)，原站调查和服务边界在 [inventory.md](docs/research/howtolivebetter/inventory.md)。
 
@@ -93,7 +95,7 @@ npm start
 - `/book/download` 保留格式介绍，实际 PDF / EPUB / Word 等鉴权下载在原站完成；本地账号不能授予原站下载权限。
 - 原站已有账户、私人笔记、私密问答和后台管理数据未迁移。原站公开论坛主题是快照，本地发帖和回复不会发布到原站；举报保存在当前服务器，没有审核通知后台。
 - 部分新实现的工具提示和账户文案采用中文或英语回退，原站六种语言的公开正文均保留。
-- 中文书籍由每日同步任务更新；其他语言、专题文章、工具题库、广告内容和原站离线下载仍保留各自的快照或原站服务边界。
+- 中文书籍由每日同步任务更新；其他语言、专题文章、工具题库和原站离线下载仍保留各自的快照或原站服务边界。
 
 当前服务器使用 Node.js 内置 SQLite，适合单个 Node 服务配合可写的持久磁盘。部署到 Vercel 等临时文件系统或多个实例时，需要先更换共享数据库；当前版本未验证这类部署。备份时先停止服务，再复制整个数据目录；不要只复制仍在写入的 SQLite 主文件。`.data/` 已被 Git 忽略。
 
@@ -125,7 +127,7 @@ npm start
 
 项目构建检查：`npm run check`。
 
-书籍同步专项：`npm run test:book-sync` 和 `python scripts/verify-book-sync.py`；后者检查全部中文建议、章节和路由，并验证六种语言的合并数据。
+书籍同步专项：`npm run test:book-sync` 和 `python scripts/verify-book-sync.py`；后者检查全部中文建议、章节和路由，并验证六种语言的合并数据。广告清理检查：`npm run verify:no-advertising`。
 
 服务启动后，可复跑以下验证。浏览器脚本使用隔离的无头 Chromium，不使用个人浏览器配置。需要 Python 和 Playwright；首次使用安装 `python -m pip install playwright` 与 `python -m playwright install chromium`。
 

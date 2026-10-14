@@ -51,6 +51,9 @@ def request(url):
 def filename(route):
     return 'index' if route == '/' else route.strip('/').replace('/', '~')
 
+def excluded_route(route):
+    return route.rstrip('/').rsplit('/',1)[-1] in ('advertise','shengcaiyoushu')
+
 def asset_url(url):
     absolute = urljoin(ORIGIN, url)
     parsed = urlsplit(absolute)
@@ -86,6 +89,11 @@ def node(element):
     if isinstance(element,NavigableString): return str(element)
     if element.name in ('script','style','noscript','link','meta'): return None
     if not element.name: return None
+    classes=set(element.get('class',[]))
+    if 'life-ad-layout' in classes:
+        main=element.find('main',recursive=False)
+        return node(main) if main else None
+    if any(name.startswith('data-ad-') for name in element.attrs) or any(name.startswith('life-ad-') for name in classes): return None
     attrs={}
     for key,value in element.attrs.items():
         if key.startswith('on') or key.startswith('data-tsr') or key in ('nonce','integrity'): continue
@@ -115,6 +123,7 @@ def node(element):
     return {'tag':svg_tags.get(element.name,element.name),'props':attrs,'children':children}
 
 def import_page(route):
+    if excluded_route(route): return None,set()
     cache=CACHE/(filename(route)+'.html')
     if cache.exists():
         raw=cache.read_bytes();final=ORIGIN+route
@@ -147,7 +156,7 @@ def import_page(route):
     links=set()
     for anchor in soup.select('a[href]'):
         p=urlsplit(urljoin(ORIGIN,anchor['href']))
-        if p.hostname=='howtolivebetter.net' and not p.path.startswith(('/api/','/cdn-cgi/','/assets/','/images/','/fonts/')) and not re.search(r'\.[a-z0-9]{2,5}$',p.path):
+        if p.hostname=='howtolivebetter.net' and not excluded_route(p.path) and not p.path.startswith(('/api/','/cdn-cgi/','/assets/','/images/','/fonts/')) and not re.search(r'\.[a-z0-9]{2,5}$',p.path):
             links.add(unquote(p.path.rstrip('/')) or '/')
     return {'path':route,'title':title,'file':filename(route)+'.json','lang':content['lang']},links
 
@@ -167,7 +176,8 @@ def main():
     sitemap,_,_=request(ORIGIN+'/sitemap.xml')
     (ROOT/'docs/research/howtolivebetter/sitemap.xml').write_bytes(sitemap)
     routes={urlsplit(e.text).path.rstrip('/') or '/' for e in ET.fromstring(sitemap).findall('{*}url/{*}loc')}
-    routes.update(['/dashboard','/sign-in','/advertise','/search'])
+    routes={route for route in routes if not excluded_route(route)}
+    routes.update(['/dashboard','/sign-in','/search'])
     seen=set()
     while routes:
         batch=sorted(routes-seen,key=lambda p:(p.count('/'),len(p),p))

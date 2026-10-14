@@ -50,19 +50,18 @@ with sync_playwright() as p:
         page.goto('http://127.0.0.1:3000/',wait_until='domcontentloaded')
         page.locator('h1').wait_for()
         results['pages'].append({'path':'/','width':width,'overflow':page.evaluate('document.documentElement.scrollWidth>innerWidth+1')})
-    for route in ['/book','/book/01','/articles/36-questions','/value','/en','/ru/book','/ja/daily','/es/quiz','/vi/meditation','/products','/shengcaiyoushu','/national-day']:
+    for route in ['/book','/book/01','/articles/36-questions','/value','/en','/ru/book','/ja/daily','/es/quiz','/vi/meditation','/products','/national-day']:
         page.set_viewport_size({'width':1440,'height':1000})
         response=page.goto('http://127.0.0.1:3000'+route,wait_until='networkidle',timeout=90000)
+        assert page.locator('.life-ad-space,.life-ad-rail,.life-ad-dock,[data-ad-placement],.life-advertise-page').count()==0,route
         results['pages'].append({'path':route,'status':response.status,'title':page.title(),'overflow':page.evaluate('document.documentElement.scrollWidth>innerWidth+1'),'brokenImages':page.locator('img').evaluate_all('(es)=>es.filter(e=>e.complete&&!e.naturalWidth).map(e=>e.src)')})
         if route in ['/book','/book/01','/articles/36-questions']:
             page.screenshot(path=str(out/('local-'+route.strip('/').replace('/','-')+'.png')))
-    page.goto('http://127.0.0.1:3000/advertise',wait_until='networkidle')
-    selected=page.locator('.life-ad-plans button').nth(1)
-    selected.click()
-    assert selected.get_attribute('aria-pressed')=='true'
-    assert '季付' in page.locator('.life-ad-contact p').inner_text()
-    assert '%E5%AD%A3%E4%BB%98' in page.locator('.life-ad-contact-button').get_attribute('href')
-    results['advertise']='period selection updates the status and contact link; no email sent'
+    for route in ['/advertise','/en/advertise','/ru/advertise','/es/advertise','/ja/advertise','/vi/advertise',
+                  '/shengcaiyoushu','/en/shengcaiyoushu','/ru/shengcaiyoushu','/es/shengcaiyoushu','/ja/shengcaiyoushu','/vi/shengcaiyoushu']:
+        response=page.goto('http://127.0.0.1:3000'+route,wait_until='networkidle')
+        assert response.status==404,(route,response.status)
+    results['advertising']='all paid placements removed; advertising and sponsored pages return 404'
     browser.close()
 (root/'docs/research/howtolivebetter/visual-check.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps(results,ensure_ascii=False))

@@ -30,6 +30,8 @@
     "dev": "next dev",
     "build": "next build",
     "build:pages": "node scripts/build-pages-preview.mjs",
+    "remove:advertising": "node scripts/remove-advertising.mjs",
+    "verify:no-advertising": "node scripts/remove-advertising.mjs --check",
     "start": "node scripts/start-production.mjs",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

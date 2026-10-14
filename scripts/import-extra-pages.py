@@ -4,7 +4,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 spec=importlib.util.spec_from_file_location('import_site',Path(__file__).with_name('import-site.py'))
 site=importlib.util.module_from_spec(spec);spec.loader.exec_module(site)
-base=['/advertise','/auth-callback','/bingo/share','/blog','/checkup/plans','/checkup/report',
+base=['/auth-callback','/bingo/share','/blog','/checkup/plans','/checkup/report',
  '/dashboard','/forgot-password','/lab/new','/lab/review','/layoff/pack','/pricing',
  '/quiz/share','/redeem-invite','/reset-password','/sign-in','/sign-up','/together',
  '/top-50/share','/verify-email','/wechat-login','/wechat-nickname']

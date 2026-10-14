@@ -63,7 +63,7 @@ try:
         page.on("pageerror", lambda error: errors.append(str(error)))
         page.on("request", lambda request: requests.append(request.url))
         page.on("requestfailed", lambda request: failures.append((request.url, request.failure)))
-        page.on("response", lambda response: failures.append((response.url, response.status)) if response.status >= 400 and "__missing_preview_test__" not in response.url else None)
+        page.on("response", lambda response: failures.append((response.url, response.status)) if response.status >= 400 and "__missing_preview_test__" not in response.url and not any(f"/{slug}/" in urlsplit(response.url).path for slug in ("advertise", "shengcaiyoushu")) else None)
 
         def check_links():
             invalid = page.locator("a[href]").evaluate_all("""(links) => links.map(a => a.getAttribute('href')).filter(h => h.startsWith('/') && !h.startsWith('//'))""")
@@ -73,6 +73,7 @@ try:
             response = page.goto(base + path, wait_until="networkidle", timeout=60000)
             assert response.status == 200, (path, response.status)
             check_links()
+            assert page.locator(".life-ad-space, .life-ad-rail, .life-ad-dock, [data-ad-placement], .life-advertise-page").count() == 0, path
 
         visit("/")
         assert "noindex" in page.locator('meta[name="robots"]').get_attribute("content")
@@ -93,6 +94,11 @@ try:
         expect(page).to_have_url(base + "/book/")
         print("PASS: home assets, menus, theme and document navigation", flush=True)
 
+        visit("/articles/36-questions/")
+        expect(page.locator("main h1")).to_be_visible()
+        assert page.locator(".life-longread").count() == 1
+
+        visit("/book/")
         page.locator(".life-search-wrap input").fill("安全带")
         result = page.locator(".life-result-row").first
         expect(result).to_be_visible()
@@ -140,6 +146,10 @@ try:
             assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth"), ("Mobile overflow", path)
         response = page.goto(base + "/__missing_preview_test__/", wait_until="networkidle")
         assert response.status == 404, response.status
+        for path in ["/advertise", "/en/advertise", "/ru/advertise", "/es/advertise", "/ja/advertise", "/vi/advertise",
+                     "/shengcaiyoushu", "/en/shengcaiyoushu", "/ru/shengcaiyoushu", "/es/shengcaiyoushu", "/ja/shengcaiyoushu", "/vi/shengcaiyoushu"]:
+            response = page.goto(base + path + "/", wait_until="networkidle")
+            assert response.status == 404, (path, response.status)
         assert not [url for url in requests if "/api/local/" in url or urlsplit(url).path.endswith(".txt")], "Unexpected API or client-navigation request"
         assert not failures, failures
         assert not errors, errors

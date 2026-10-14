@@ -114,18 +114,6 @@ export function SiteRuntime({ children, route, lang }: { children: ReactNode; ro
         const text = `${document.title}\n${location.href}`;
         if (navigator.share && button.closest(".social-share-platforms")) void navigator.share({ title: document.title, url: location.href }).catch(() => undefined);
         else void navigator.clipboard.writeText(text).then(() => toast(isChinese ? "文案与链接已复制，可粘贴分享。" : "Title and link copied."));
-      } else if (button.matches(".life-ad-dismiss")) {
-        const advert = button.closest<HTMLElement>(".life-ad-space");
-        if (advert) advert.hidden = true;
-      } else if (button.closest(".life-ad-plans")) {
-        const plans = button.closest(".life-ad-plans")!;
-        const previous = plans.querySelector('[aria-pressed="true"] span')?.textContent || "";
-        const period = button.querySelector("span")?.textContent || "";
-        plans.querySelectorAll("button").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
-        const note = root.querySelector(".life-ad-contact p");
-        if (note && previous) note.textContent = (note.textContent || "").replace(previous, period);
-        const contact = root.querySelector<HTMLAnchorElement>(".life-ad-contact-button");
-        if (contact) contact.href = `mailto:support@howtolivebetter.net?subject=${encodeURIComponent(`HowToLiveBetter · ${period}`)}`;
       } else if (button.closest(".jd-categories")) {
         const buttons = Array.from(root.querySelectorAll(".jd-categories button"));
         buttons.forEach((b) => b.setAttribute("aria-pressed", String(b === button)));

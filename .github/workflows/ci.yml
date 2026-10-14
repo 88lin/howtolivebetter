@@ -32,5 +32,8 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
+      - name: Verify advertising is removed
+        run: npm run verify:no-advertising
+
       - name: Build
         run: npm run build

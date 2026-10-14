@@ -6,12 +6,6 @@
     "lang": "zh"
   },
   {
-    "path": "/advertise",
-    "title": "把你的产品带给认真生活的人 | HowToLiveBetter",
-    "file": "advertise.json",
-    "lang": "zh"
-  },
-  {
     "path": "/articles",
     "title": "有些选择，值得展开聊聊。 | HowToLiveBetter",
     "file": "articles.json",
@@ -369,12 +363,6 @@
     "path": "/en/about",
     "title": "About this site",
     "file": "en~about.json",
-    "lang": "en"
-  },
-  {
-    "path": "/en/advertise",
-    "title": "Reach people who care about living well | HowToLiveBetter",
-    "file": "en~advertise.json",
     "lang": "en"
   },
   {
@@ -807,12 +795,6 @@
     "path": "/en/retrospective",
     "title": "From a checklist to lasting connections: the making of this site | HowToLiveBetter",
     "file": "en~retrospective.json",
-    "lang": "en"
-  },
-  {
-    "path": "/en/shengcaiyoushu",
-    "title": "Shengcai Youshu: ideas for a hands-on side project | HowToLiveBetter",
-    "file": "en~shengcaiyoushu.json",
     "lang": "en"
   },
   {
@@ -4968,12 +4950,6 @@
     "lang": "es"
   },
   {
-    "path": "/es/advertise",
-    "title": "Llega a personas que quieren vivir mejor | HowToLiveBetter",
-    "file": "es~advertise.json",
-    "lang": "es"
-  },
-  {
     "path": "/es/articles",
     "title": "Algunas decisiones merecen una mirada más profunda. | HowToLiveBetter",
     "file": "es~articles.json",
@@ -5403,12 +5379,6 @@
     "path": "/es/retrospective",
     "title": "De una lista a una conexión duradera: la historia del sitio | HowToLiveBetter",
     "file": "es~retrospective.json",
-    "lang": "es"
-  },
-  {
-    "path": "/es/shengcaiyoushu",
-    "title": "Shengcai Youshu: ideas para un proyecto paralelo | HowToLiveBetter",
-    "file": "es~shengcaiyoushu.json",
     "lang": "es"
   },
   {
@@ -9582,12 +9552,6 @@
     "lang": "ja"
   },
   {
-    "path": "/ja/advertise",
-    "title": "よりよい暮らしを求める人に届ける | HowToLiveBetter",
-    "file": "ja~advertise.json",
-    "lang": "ja"
-  },
-  {
     "path": "/ja/articles",
     "title": "じっくり考えたいことを、もう少し深く。 | HowToLiveBetter",
     "file": "ja~articles.json",
@@ -10017,12 +9981,6 @@
     "path": "/ja/retrospective",
     "title": "チェックリストからつながりへ：サイト制作の振り返り | HowToLiveBetter",
     "file": "ja~retrospective.json",
-    "lang": "ja"
-  },
-  {
-    "path": "/ja/shengcaiyoushu",
-    "title": "生財有術：小さな副業を始めるためのヒント | HowToLiveBetter",
-    "file": "ja~shengcaiyoushu.json",
     "lang": "ja"
   },
   {
@@ -14280,12 +14238,6 @@
     "lang": "ru"
   },
   {
-    "path": "/ru/advertise",
-    "title": "Расскажите о себе тем, кто хочет жить лучше | HowToLiveBetter",
-    "file": "ru~advertise.json",
-    "lang": "ru"
-  },
-  {
     "path": "/ru/articles",
     "title": "Некоторые решения стоит обдумать глубже. | HowToLiveBetter",
     "file": "ru~articles.json",
@@ -14715,12 +14667,6 @@
     "path": "/ru/retrospective",
     "title": "От списка действий к постоянной связи: история сайта | HowToLiveBetter",
     "file": "ru~retrospective.json",
-    "lang": "ru"
-  },
-  {
-    "path": "/ru/shengcaiyoushu",
-    "title": "Shengcai Youshu: идеи для небольшого проекта | HowToLiveBetter",
-    "file": "ru~shengcaiyoushu.json",
     "lang": "ru"
   },
   {
@@ -18862,12 +18808,6 @@
     "title": "Выберите себе имя",
     "file": "ru~wechat-nickname.json",
     "lang": "ru"
-  },
-  {
-    "path": "/shengcaiyoushu",
-    "title": "生财有术推荐：找思路，动手做副业 | HowToLiveBetter",
-    "file": "shengcaiyoushu.json",
-    "lang": "zh"
   },
   {
     "path": "/sign-in",
@@ -23142,12 +23082,6 @@
     "lang": "vi"
   },
   {
-    "path": "/vi/advertise",
-    "title": "Tiếp cận người quan tâm đến sống tốt hơn | HowToLiveBetter",
-    "file": "vi~advertise.json",
-    "lang": "vi"
-  },
-  {
     "path": "/vi/articles",
     "title": "Một số quyết định xứng đáng được xem xét kỹ hơn. | HowToLiveBetter",
     "file": "vi~articles.json",
@@ -23577,12 +23511,6 @@
     "path": "/vi/retrospective",
     "title": "Từ danh sách hành động đến kết nối lâu dài: câu chuyện xây dựng trang web | HowToLiveBetter",
     "file": "vi~retrospective.json",
-    "lang": "vi"
-  },
-  {
-    "path": "/vi/shengcaiyoushu",
-    "title": "Shengcai Youshu: ý tưởng cho một dự án nhỏ | HowToLiveBetter",
-    "file": "vi~shengcaiyoushu.json",
     "lang": "vi"
   },
   {

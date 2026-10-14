@@ -857,11 +857,6 @@
     "bytes": 7045
   },
   {
-    "source": "https://howtolivebetter.net/images/shengcai/logo.png",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\logo.png",
-    "bytes": 3496
-  },
-  {
     "source": "https://howtolivebetter.net/images/share/instagram.svg",
     "local": "public\\sites\\howtolivebetter\\images\\share\\instagram.svg",
     "bytes": 2101,
@@ -892,63 +887,9 @@
     "type": "image/svg+xml"
   },
   {
-    "source": "https://howtolivebetter.net/images/shengcai/member-post.webp",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\member-post.webp",
-    "bytes": 86818,
-    "type": "image/webp"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/10.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\10.jpg",
-    "bytes": 5878,
-    "type": "image/jpeg"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/1.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\1.jpg",
-    "bytes": 5766,
-    "type": "image/jpeg"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/11.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\11.jpg",
-    "bytes": 6223,
-    "type": "image/jpeg"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/5.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\5.jpg",
-    "bytes": 7064,
-    "type": "image/jpeg"
-  },
-  {
     "source": "https://howtolivebetter.net/skills/howtolivebetter/SKILL.md",
     "local": "public\\sites\\howtolivebetter\\skills\\howtolivebetter\\SKILL.md",
     "bytes": 3072
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/4.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\4.jpg",
-    "bytes": 5179,
-    "type": "image/jpeg"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/8.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\8.jpg",
-    "bytes": 5085,
-    "type": "image/jpeg"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/xiaohongshu-case.webp",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\xiaohongshu-case.webp",
-    "bytes": 154720,
-    "type": "image/webp"
-  },
-  {
-    "source": "https://howtolivebetter.net/images/shengcai/members/9.jpg",
-    "local": "public\\sites\\howtolivebetter\\images\\shengcai\\members\\9.jpg",
-    "bytes": 6023,
-    "type": "image/jpeg"
   },
   {
     "source": "https://howtolivebetter.net/jd-favicon.ico",
