@@ -1,8 +1,25 @@
 # HowToLiveBetter 本地站点
 
-基于 [88lin/ai-website-cloner-template](https://github.com/88lin/ai-website-cloner-template)，将 [高性价比人生指南](https://howtolivebetter.net/) 的公开页面迁移为可编辑的 Next.js 16 / React 19 / TypeScript 项目。内容和视觉基线来自 **2026-10-11** 的原站快照。
+基于 [88lin/ai-website-cloner-template](https://github.com/88lin/ai-website-cloner-template)，将 [高性价比人生指南](https://howtolivebetter.net/) 的公开页面迁移为可编辑的 Next.js 16 / React 19 / TypeScript 项目。视觉和翻译基线来自 **2026-10-11** 的原站快照；中文书籍从 [原书仓库](https://github.com/eternity4719/HowToLiveBetter) 单独同步。
 
-当前收录 **4,601 个路由**：539 个页面、工具或账户状态页面，以及六种语言共 4,062 个建议详情页。中文、英语、俄语、西班牙语、日语、越南语各包含 34 章、677 条建议。图片、字体、视频和数据共 235 个本地文件。
+初次迁移收录 4,601 个路由和 235 个本地素材／数据文件。中文建议及详情页随原书更新而增加，当前版本、章节数和条目数见 [同步记录](src/content/howtolivebetter/book-sync.json)，完整路径见 [路由索引](src/content/howtolivebetter/routes.json)。英语、俄语、西班牙语、日语、越南语各保留 34 章、677 条建议的翻译快照。
+
+## 自动同步中文原书
+
+[Sync Chinese book](.github/workflows/sync-book.yml) 每天 **北京时间 08:23** 检查原书 `main` 分支，也支持在 GitHub Actions 中手动运行。新增与修订会更新中文阅读目录、章节、建议详情、精选中的原文以及首页数量。通过编号检查、内容验证、ESLint、TypeScript 和生产构建后，工作流自动提交到本仓库 `master`；无内容变化时不提交。
+
+原书没有这五种译文，因此不会用中文覆盖翻译。新增中文条目切换到尚无译文的语言时，进入该语言对应章节。原有条目 ID、用户标记和本地账户数据保持各自的归属；删除、重排或疑似替换条目时停止自动同步并报告错误。
+
+本地可以运行：
+
+```powershell
+npm run sync:book:preview
+npm run sync:book
+python scripts/verify-book-sync.py
+npm run check
+```
+
+脚本需要 Python 3.10+ 和 Git，自动获取原书的干净临时副本，只解析 Markdown，不运行上游代码。GitHub Actions 需要账户额度和账单状态正常。**截至首次配置，GitHub 因账号付款／消费限额问题未启动云端任务**；本地首次同步已验证，恢复额度后可在 Actions 手动运行一次。运行规则和故障处理见 [同步说明](docs/book-sync.md)。
 
 ## 启动
 
@@ -61,7 +78,7 @@ npm start
 - `/book/download` 保留格式介绍，实际 PDF / EPUB / Word 等鉴权下载在原站完成；本地账号不能授予原站下载权限。
 - 原站已有账户、私人笔记、私密问答和后台管理数据未迁移。原站公开论坛主题是快照，本地发帖和回复不会发布到原站；举报保存在当前服务器，没有审核通知后台。
 - 部分新实现的工具提示和账户文案采用中文或英语回退，原站六种语言的公开正文均保留。
-- 内容是固定快照，尚未配置定时同步。书中建议、广告统计和页面日期保留原站当时的值。
+- 中文书籍由每日同步任务更新；其他语言、专题文章、工具题库、广告内容和原站离线下载仍保留各自的快照或原站服务边界。
 
 当前服务器使用 Node.js 内置 SQLite，适合单个 Node 服务配合可写的持久磁盘。部署到 Vercel 等临时文件系统或多个实例时，需要先更换共享数据库；当前版本未验证这类部署。备份时先停止服务，再复制整个数据目录；不要只复制仍在写入的 SQLite 主文件。`.data/` 已被 Git 忽略。
 
@@ -69,7 +86,7 @@ npm start
 
 | 位置 | 用途 |
 | --- | --- |
-| `src/app/[[...slug]]/page.tsx` | 按路径读取内容并在服务端渲染；4,601 个页面不是 4,601 份静态构建文件 |
+| `src/app/[[...slug]]/page.tsx` | 按路径读取内容并在服务端渲染，不逐条生成静态构建文件 |
 | `src/content/howtolivebetter/pages/` | 页面标题、描述、样式地址和可编辑语义节点；文件名用 `~` 对应路径分隔符 |
 | `src/components/sites/howtolivebetter/` | 页面渲染器，以及导航、阅读、工具和本地服务的交互实现 |
 | `src/lib/local-store.ts`、`src/app/api/local/` | 独立账户、会话、清单、论坛与问答服务 |
@@ -87,11 +104,13 @@ npm start
 
 `scripts/import-site.py`、`import-extra-pages.py` 和提取脚本是本次迁移工具，当前没有经过验证的一键更新流程。HTML 导入与建议提取需要 `beautifulsoup4`（`python -m pip install beautifulsoup4`）。`import-site.py` 优先复用 `temp/source/` 中已有 HTML、已有素材文件也直接复用，并会重写内容与路由索引；单纯重跑不会让缓存内容变成原站最新版。`extract-tips.py` 从该缓存提取建议，仍要求每种语言恰好 677 条；`extract-tool-data.py` 依赖 `temp/tool-reference/` 中对应的参考文件与当时的数据结构。
 
-若以后更新原站内容，应单独准备新快照，核对路由、提取逻辑和本地修改，再替换已确认的数据并复跑下列检查。当前交付保留 2026-10-11 内容，不会随最新截图自动同步。
+中文书籍更新应使用 `sync:book`，不要再用旧 HTML 缓存覆盖它。若以后更新翻译、专题或原站界面，应单独准备新快照，核对路由、提取逻辑和本地修改，再替换已确认的数据并复跑下列检查。重新截图不会自动同步正文。
 
 ## 验证
 
 项目构建检查：`npm run check`。
+
+书籍同步专项：`npm run test:book-sync` 和 `python scripts/verify-book-sync.py`；后者检查全部中文建议、章节和路由，并验证六种语言的合并数据。
 
 服务启动后，可复跑以下验证。浏览器脚本使用隔离的无头 Chromium，不使用个人浏览器配置。需要 Python 和 Playwright；首次使用安装 `python -m pip install playwright` 与 `python -m playwright install chromium`。
 

@@ -1,14 +1,14 @@
 {
-  "routes": 4601,
+  "routes": 4623,
   "byLanguage": {
-    "zh": 776,
+    "zh": 798,
     "en": 765,
     "es": 765,
     "ja": 765,
     "ru": 765,
     "vi": 765
   },
-  "uniqueLocalLinks": 4513,
+  "uniqueLocalLinks": 4534,
   "uniqueAssets": 221,
   "missingRoutes": [],
   "missingAssets": []

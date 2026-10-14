@@ -1,0 +1,92 @@
+name: Sync Chinese book
+
+on:
+  schedule:
+    # 08:23 Asia/Shanghai. GitHub may delay scheduled runs during busy periods.
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-chinese-book
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Checkout this site
+        uses: actions/checkout@v7
+        with:
+          ref: master
+
+      - name: Checkout original Chinese book as data
+        uses: actions/checkout@v7
+        with:
+          repository: eternity4719/HowToLiveBetter
+          ref: main
+          path: .tmp/book-upstream
+          sparse-checkout: book
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Test parser and entry identity protection
+        run: python -m unittest discover -s scripts/tests -p 'test_sync_book.py'
+
+      - name: Import and validate the book
+        id: import
+        run: |
+          mkdir -p temp
+          python scripts/sync-book.py --source-dir .tmp/book-upstream --write > temp/book-sync-report.json
+          cat temp/book-sync-report.json
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads(Path('temp/book-sync-report.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"changed={'true' if report['changedFiles'] else 'false'}\n")
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write(f"Chinese book: {report['tips']} entries in {report['chapters']} chapters.\n\n")
+              summary.write(f"Upstream commit: `{report['commit']}`\n\n")
+              summary.write(f"Changed files: {report['changedFiles']}. Added entries: {len(report['added'])}.\n")
+          PY
+
+      - name: Set up Node.js
+        if: steps.import.outputs.changed == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install site dependencies
+        if: steps.import.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Verify content and route references
+        if: steps.import.outputs.changed == 'true'
+        run: |
+          python scripts/verify-book-sync.py
+          python scripts/audit-import.py
+
+      - name: Lint, type-check and build
+        if: steps.import.outputs.changed == 'true'
+        run: npm run check
+
+      - name: Commit validated book changes
+        if: steps.import.outputs.changed == 'true'
+        run: |
+          git add -- public/sites/howtolivebetter/tips-zh.json public/sites/howtolivebetter/tips.json src/content/howtolivebetter/pages src/content/howtolivebetter/routes.json src/content/howtolivebetter/book-sync.json docs/research/howtolivebetter/route-audit.json
+          git diff --cached --check
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: 同步中文原书更新'
+          # Never overwrite a newer user commit. A concurrent update fails safely.
+          git push origin HEAD:master

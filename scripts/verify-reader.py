@@ -20,6 +20,8 @@ parser.add_argument("--base-url", default="http://localhost:3000")
 parser.add_argument("--browser-executable", default=os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH"))
 args = parser.parse_args()
 BASE = args.base_url.rstrip("/")
+tip_data = json.loads((Path(__file__).resolve().parents[1] / "public/sites/howtolivebetter/tips-zh.json").read_text(encoding="utf-8"))
+chapter_one = [tip for tip in tip_data if tip["chapterId"] == "01"]
 if urlsplit(BASE).hostname not in ("localhost", "127.0.0.1", "::1"):
     parser.error("Use a local clone address; this test changes reading progress.")
 
@@ -64,7 +66,7 @@ with sync_playwright() as playwright:
     visit("/dashboard")
     expect(page.locator(".life-count-card.done strong")).to_have_text("1")
     expect(page.locator(".life-count-card.favorite strong")).to_have_text("1")
-    expect(page.locator('.life-topic-progress[href="/book/01"] .life-topic-progress-score')).to_have_text("2/100")
+    expect(page.locator('.life-topic-progress[href="/book/01"] .life-topic-progress-score')).to_have_text(f"{int(100 / len(chapter_one) + 0.5)}/100")
     page.locator(".life-filter-tabs button").nth(4).click()
     expect(page.locator(".life-dashboard-item")).to_have_count(1)
     with page.expect_download() as download_info:
@@ -85,10 +87,10 @@ with sync_playwright() as playwright:
     search.fill("")
     expect(page.locator(".life-chapter-grid")).to_be_visible()
     page.locator(".life-book-sidebar button").nth(1).click()
-    expect(page.locator(".life-result-row")).to_have_count(43)
+    expect(page.locator(".life-result-row")).to_have_count(len(chapter_one))
     page.locator(".book-filter-trigger").nth(2).click()
     page.locator('[data-reader-filter="evidence"][data-reader-value="A"]').click()
-    assert 0 < page.locator(".life-result-row").count() < 43
+    expect(page.locator(".life-result-row")).to_have_count(sum(tip["evidence"].startswith("A") for tip in chapter_one))
     page.locator('[data-reader-reset]').click()
     expect(page.locator(".life-chapter-grid")).to_be_visible()
     page.locator(".book-filter-trigger").nth(0).click()

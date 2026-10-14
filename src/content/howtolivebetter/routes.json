@@ -103,7 +103,7 @@
   },
   {
     "path": "/book",
-    "title": "《高性价比人生指南》免费在线阅读｜677 条循证建议",
+    "title": "《高性价比人生指南》免费在线阅读｜699 条循证建议",
     "file": "book.json",
     "lang": "zh"
   },
@@ -18937,7 +18937,7 @@
   },
   {
     "path": "/tip/01-09",
-    "title": "开车不超速、不酒驾 | HowToLiveBetter",
+    "title": "开车不超速、不酒驾，不看手机，困了就停车歇 | HowToLiveBetter",
     "file": "tip~01-09.json",
     "lang": "zh"
   },
@@ -19146,6 +19146,36 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/01-44",
+    "title": "心慌、心跳乱就去做心电图，查出房颤请医生评估吃抗凝药防中风，别拿阿司匹林代替 | HowToLiveBetter",
+    "file": "tip~01-44.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/01-45",
+    "title": "成年人查一次丙肝抗体，阳性就再查核酸，确诊了吃 8 到 12 周口服药，绝大多数能治好 | HowToLiveBetter",
+    "file": "tip~01-45.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/01-46",
+    "title": "下化粪池、窨井、污水池、菜窖地窖、发酵罐之前先打开通风，有人倒在里面别跟着下去，打 119 和 120 | HowToLiveBetter",
+    "file": "tip~01-46.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/01-47",
+    "title": "45 岁以上，住在胃癌食管癌高发地区、有家族史或幽门螺杆菌阳性的，去做胃镜筛查 | HowToLiveBetter",
+    "file": "tip~01-47.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/01-48",
+    "title": "泡发的木耳、银耳当顿吃完别过夜，河粉、肠粉这类湿米粉买来当天吃，家里不自制酵米面 | HowToLiveBetter",
+    "file": "tip~01-48.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/02-01",
     "title": "戒烟，越早越好 | HowToLiveBetter",
     "file": "tip~02-01.json",
@@ -19213,7 +19243,7 @@
   },
   {
     "path": "/tip/02-12",
-    "title": "有高血压、高血脂就按医嘱规律吃药，别自行停 | HowToLiveBetter",
+    "title": "成年后定期查血脂，40 岁前每 2 到 5 年一次、40 岁起每年一次；有高血压、高血脂就按医嘱规律吃药，别自行停 | HowToLiveBetter",
     "file": "tip~02-12.json",
     "lang": "zh"
   },
@@ -19297,7 +19327,7 @@
   },
   {
     "path": "/tip/02-26",
-    "title": "每天喝三到四杯咖啡，不加糖不加奶盖 | HowToLiveBetter",
+    "title": "每天喝三到四杯咖啡，咖啡因总量不超过 400 mg，不加糖不加奶盖 | HowToLiveBetter",
     "file": "tip~02-26.json",
     "lang": "zh"
   },
@@ -19407,6 +19437,24 @@
     "path": "/tip/02-44",
     "title": "本来就想养狗的，把每天遛狗算进走路量，别为了长寿专门去养狗 | HowToLiveBetter",
     "file": "tip~02-44.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/02-45",
+    "title": "查出糖尿病前期（血糖偏高、还没到糖尿病），就靠少吃、减重、多动把糖尿病往后推，每半年复查一次血糖 | HowToLiveBetter",
+    "file": "tip~02-45.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/02-46",
+    "title": "家里的花生、玉米、坚果和米面发了霉，整包扔掉，别挑掉霉的吃剩下的；嚼到发苦的坚果马上吐掉 | HowToLiveBetter",
+    "file": "tip~02-46.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/02-47",
+    "title": "别吃淡水鱼虾做的鱼生、生鱼片、鱼生粥和醉虾，常吃过的去医院查一次肝吸虫，查出来按医嘱吃吡喹酮 | HowToLiveBetter",
+    "file": "tip~02-47.json",
     "lang": "zh"
   },
   {
@@ -19944,6 +19992,24 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/05-47",
+    "title": "买新车提车时当场验车，收好发票和三包凭证；头 7 天、头 60 天里出大毛病，可以要求换车或退车 | HowToLiveBetter",
+    "file": "tip~05-47.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/05-48",
+    "title": "在车商那里买二手车，先查出险和维修记录，合同里写明「不是事故车、泡水车」；被隐瞒了可以要求退车并赔三倍车款 | HowToLiveBetter",
+    "file": "tip~05-48.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/05-49",
+    "title": "在 4S 店买车，不交「金融服务费」，保险、贷款、上牌也不必在店里办 | HowToLiveBetter",
+    "file": "tip~05-49.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/06-01",
     "title": "不要为了长寿或防心血管病吃复合维生素 | HowToLiveBetter",
     "file": "tip~06-01.json",
@@ -20127,6 +20193,12 @@
     "path": "/tip/06-31",
     "title": "不要指望靠 AI 聊天机器人自己判断病情和法律问题，看病、打官司、花大钱之前，把它说的依据找到原文核一遍 | HowToLiveBetter",
     "file": "tip~06-31.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/06-32",
+    "title": "不要因为「人随时会死，早点把钱花完才快乐」就不存钱，三十岁的人约九成能活到六十岁 | HowToLiveBetter",
+    "file": "tip~06-32.json",
     "lang": "zh"
   },
   {
@@ -20814,6 +20886,12 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/10-21",
+    "title": "办了婚礼、摆了酒席，也要去领结婚证：没登记的在法律上不算夫妻，对方去世你没有配偶的继承权 | HowToLiveBetter",
+    "file": "tip~10-21.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/11-01",
     "title": "动手前先问一句：厂商、平台、公司会不会去报案；被追究后马上找刑事律师 | HowToLiveBetter",
     "file": "tip~11-01.json",
@@ -21456,6 +21534,42 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/15-10",
+    "title": "买期房时先看预售许可证，定金、首付和贷款只打进合同写明的预售资金监管账户 | HowToLiveBetter",
+    "file": "tip~15-10.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-11",
+    "title": "买新房交了认购定金或者首付，没签成正式合同、贷款批不下来（比如签约后政策收紧、银行停贷）又怪不到你的，要求开发商退钱 | HowToLiveBetter",
+    "file": "tip~15-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-12",
+    "title": "买新房签合同前看清面积误差怎么处理，楼书、广告和沙盘上的承诺拍照留好 | HowToLiveBetter",
+    "file": "tip~15-12.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-13",
+    "title": "买新房遇上开发商逾期交房、逾期办证，先发书面催告留证据，再按合同要违约金 | HowToLiveBetter",
+    "file": "tip~15-13.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-14",
+    "title": "买房签约前查清有没有查封和抵押，签约后去不动产登记机构办预告登记 | HowToLiveBetter",
+    "file": "tip~15-14.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-15",
+    "title": "背着浮动利率房贷的，利率比新发放的房贷高出一截时，找银行协商降利率或者申请置换 | HowToLiveBetter",
+    "file": "tip~15-15.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/16-01",
     "title": "药按医嘱吃满，别感觉好了就停 | HowToLiveBetter",
     "file": "tip~16-01.json",
@@ -21507,6 +21621,12 @@
     "path": "/tip/16-09",
     "title": "确诊痛风就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持 | HowToLiveBetter",
     "file": "tip~16-09.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/16-10",
+    "title": "得过痛风的，吃烧烤、聚餐时别一顿吃下大量肉和海鲜，酒也要少喝 | HowToLiveBetter",
+    "file": "tip~16-10.json",
     "lang": "zh"
   },
   {
@@ -22065,6 +22185,18 @@
     "path": "/tip/23-23",
     "title": "拿到职称不等于涨工资：先问清单位是按岗位比例评聘，还是评了不一定聘 | HowToLiveBetter",
     "file": "tip~23-23.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/23-24",
+    "title": "本科毕业要不要接着读硕士：先算学费和少挣的两三年工资，再看自己读的专业多挣不多挣 | HowToLiveBetter",
+    "file": "tip~23-24.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/23-25",
+    "title": "硕士毕业要不要接着读博士：目标岗位明确要博士才读，读之前把心理负担也算进去 | HowToLiveBetter",
+    "file": "tip~23-25.json",
     "lang": "zh"
   },
   {

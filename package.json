@@ -32,7 +32,10 @@
     "start": "node scripts/start-production.mjs",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck && npm run build"
+    "check": "npm run lint && npm run typecheck && npm run build",
+    "sync:book": "python scripts/sync-book.py --write",
+    "sync:book:preview": "python scripts/sync-book.py",
+    "test:book-sync": "python -m unittest discover -s scripts/tests -p test_sync_book.py"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

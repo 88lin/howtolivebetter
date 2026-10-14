@@ -130,9 +130,12 @@ export function installNavigation(root: HTMLElement, route: string, language: st
     if (kind === "more") {
       navigation.more[lang].forEach(({ label, href, icon }) => item(label, href, icon, route === href || route.startsWith(`${href}/`)));
     } else if (kind === "language") {
+      const tipLocales = root.querySelector("[data-tip-locales]")?.getAttribute("data-tip-locales")?.split(",");
       navigation.languages.forEach(({ code, label }) => {
-        const destination = `${code === "zh" ? "" : `/${code}`}${baseRoute === "/" ? "" : baseRoute}` || "/";
-        item(label, destination + location.search + location.hash, undefined, code === lang);
+        const missingTranslation = !!tipLocales && !tipLocales.includes(code) && /^\/tip\/\d{2}-\d{2}$/.test(baseRoute);
+        const translatedRoute = missingTranslation ? `/book/${baseRoute.slice(5, 7)}` : baseRoute;
+        const destination = `${code === "zh" ? "" : `/${code}`}${translatedRoute === "/" ? "" : translatedRoute}` || "/";
+        item(label, destination + location.search + (missingTranslation ? "" : location.hash), undefined, code === lang);
       });
     } else {
       themes.forEach((choice, index) => item(navigation.themes[lang][index], undefined, ["lucide-monitor", "lucide-sun", "lucide-moon"][index], choice === theme, () => applyTheme(choice)));
