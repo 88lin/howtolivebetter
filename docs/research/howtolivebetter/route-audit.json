@@ -1,15 +1,15 @@
 {
-  "routes": 4623,
+  "routes": 4677,
   "byLanguage": {
-    "zh": 798,
-    "en": 765,
-    "es": 765,
-    "ja": 765,
-    "ru": 765,
-    "vi": 765
+    "zh": 862,
+    "en": 763,
+    "es": 763,
+    "ja": 763,
+    "ru": 763,
+    "vi": 763
   },
-  "uniqueLocalLinks": 4534,
-  "uniqueAssets": 221,
+  "uniqueLocalLinks": 4588,
+  "uniqueAssets": 211,
   "missingRoutes": [],
   "missingAssets": []
 }

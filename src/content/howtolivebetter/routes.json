@@ -97,7 +97,7 @@
   },
   {
     "path": "/book",
-    "title": "《高性价比人生指南》免费在线阅读｜699 条循证建议",
+    "title": "《高性价比人生指南》免费在线阅读｜765 条循证建议",
     "file": "book.json",
     "lang": "zh"
   },
@@ -19021,7 +19021,7 @@
   },
   {
     "path": "/tip/01-33",
-    "title": "别把「救回来」当成兜底：喝农药、吸煤气之后急诊能保住的是命，保不住肺和脑子 | HowToLiveBetter",
+    "title": "别把「救回来」当成兜底：喝农药、吸煤气之后急诊能保住的是命，可能保不住肺和脑子 | HowToLiveBetter",
     "file": "tip~01-33.json",
     "lang": "zh"
   },
@@ -19051,7 +19051,7 @@
   },
   {
     "path": "/tip/01-38",
-    "title": "有高危性行为的男男性行为者，去艾滋病定点医院问暴露前预防药，按时吃能少感染七成以上 | HowToLiveBetter",
+    "title": "有高危性行为的男男性行为者，去艾滋病定点医院问暴露前预防药，按时吃能少感染约七成 | HowToLiveBetter",
     "file": "tip~01-38.json",
     "lang": "zh"
   },
@@ -19129,7 +19129,7 @@
   },
   {
     "path": "/tip/02-03",
-    "title": "戒烟别光靠忍，先去拿药：成功率能翻一倍多 | HowToLiveBetter",
+    "title": "戒烟别光靠忍，先去拿药：吃伐尼克兰的成功率能翻一倍多 | HowToLiveBetter",
     "file": "tip~02-03.json",
     "lang": "zh"
   },
@@ -19171,7 +19171,7 @@
   },
   {
     "path": "/tip/02-10",
-    "title": "认真刷牙，每天清一次牙缝，缺牙及时补 | HowToLiveBetter",
+    "title": "认真刷牙，每天清一次牙缝，缺了牙去看牙医 | HowToLiveBetter",
     "file": "tip~02-10.json",
     "lang": "zh"
   },
@@ -19321,7 +19321,7 @@
   },
   {
     "path": "/tip/02-35",
-    "title": "鸡蛋不用戒，但别每天三四个 | HowToLiveBetter",
+    "title": "鸡蛋不用戒，一天一个以内就行 | HowToLiveBetter",
     "file": "tip~02-35.json",
     "lang": "zh"
   },
@@ -19441,7 +19441,7 @@
   },
   {
     "path": "/tip/03-08",
-    "title": "睡前一小时不看发光屏幕，要看就看纸书或墨水屏 | HowToLiveBetter",
+    "title": "睡前一小时不看发光屏幕，要看就看纸书或不开屏幕灯的墨水屏 | HowToLiveBetter",
     "file": "tip~03-08.json",
     "lang": "zh"
   },
@@ -19501,7 +19501,7 @@
   },
   {
     "path": "/tip/03-18",
-    "title": "情绪低落时先做性价比最高的几件事：动起来、晒太阳、按时睡、找人说、打 12356 | HowToLiveBetter",
+    "title": "情绪低落时先做性价比最高的几件事：动起来、多见光、按时睡、找人说、打 12356 | HowToLiveBetter",
     "file": "tip~03-18.json",
     "lang": "zh"
   },
@@ -19531,7 +19531,7 @@
   },
   {
     "path": "/tip/03-23",
-    "title": "生气时别靠砸东西、打沙袋、跑一圈来发泄，先让身体慢下来 | HowToLiveBetter",
+    "title": "生气时别靠打沙袋、跑一圈来发泄，先让身体慢下来 | HowToLiveBetter",
     "file": "tip~03-23.json",
     "lang": "zh"
   },
@@ -19545,6 +19545,18 @@
     "path": "/tip/03-25",
     "title": "痛经就吃布洛芬这类止痛药，别硬扛；痛到耽误上班上学、吃三个月药也压不住，就去妇科查 | HowToLiveBetter",
     "file": "tip~03-25.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/03-26",
+    "title": "长期失眠（一周三晚以上、拖了三个月以上）先做失眠的认知行为治疗，别一上来就长期吃安眠药 | HowToLiveBetter",
+    "file": "tip~03-26.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/03-27",
+    "title": "打鼾很响、有人看见你睡着时憋气、白天困到开车都想睡的，去医院做睡眠监测查睡眠呼吸暂停，中重度的夜里戴呼吸机 | HowToLiveBetter",
+    "file": "tip~03-27.json",
     "lang": "zh"
   },
   {
@@ -19711,7 +19723,7 @@
   },
   {
     "path": "/tip/05-10",
-    "title": "教孩子记一句话：任何人让你拿家长的手机去操作、去报验证码，都是骗子 | HowToLiveBetter",
+    "title": "教孩子记一句话：网上任何人让你拿家长的手机去操作、去报验证码，都是骗子 | HowToLiveBetter",
     "file": "tip~05-10.json",
     "lang": "zh"
   },
@@ -19950,6 +19962,12 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/05-50",
+    "title": "跟团游被导游带进没约定的购物店买了东西，回来 30 天内找旅行社退货，货款让旅行社先垫 | HowToLiveBetter",
+    "file": "tip~05-50.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/06-01",
     "title": "不要为了长寿或防心血管病吃复合维生素 | HowToLiveBetter",
     "file": "tip~06-01.json",
@@ -20142,6 +20160,24 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/06-33",
+    "title": "不要因为中老年人膝盖慢慢疼起来（骨关节炎、退化性半月板撕裂）就做关节镜清理或切半月板，先减重、练大腿肌肉 | HowToLiveBetter",
+    "file": "tip~06-33.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/06-34",
+    "title": "不要指望长期失眠靠吃褪黑素治好，它平均只让人早睡着约 7 分钟，先做失眠的认知行为治疗 | HowToLiveBetter",
+    "file": "tip~06-34.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/06-35",
+    "title": "不要因为感冒、普通发烧就要求输液，也不要在换季时去输液「冲血管」「通血管」 | HowToLiveBetter",
+    "file": "tip~06-35.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/07-01",
     "title": "失业了先在线申领失业保险金 | HowToLiveBetter",
     "file": "tip~07-01.json",
@@ -20179,7 +20215,7 @@
   },
   {
     "path": "/tip/07-07",
-    "title": "收入低于当地低保线就申请低保 | HowToLiveBetter",
+    "title": "收入低于当地低保线就申请低保，比低保线略高或者看病上学花得多的申请医疗、教育、住房、就业救助 | HowToLiveBetter",
     "file": "tip~07-07.json",
     "lang": "zh"
   },
@@ -20274,6 +20310,12 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/07-23",
+    "title": "信用卡、网贷已经还不上，自己打银行或平台客服申请个性化分期或延期，别借新还旧，也别付钱找「停息挂账」「征信修复」「反催收」中介 | HowToLiveBetter",
+    "file": "tip~07-23.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/08-01",
     "title": "出了交通事故先停车、救人、报警，不要跑 | HowToLiveBetter",
     "file": "tip~08-01.json",
@@ -20311,7 +20353,7 @@
   },
   {
     "path": "/tip/08-07",
-    "title": "喝了酒就不碰方向盘，包括电动车和「挪一下车」 | HowToLiveBetter",
+    "title": "喝了酒就不碰方向盘，包括电动车和「挪一下车」，也别把车借给喝了酒或没驾照的人开 | HowToLiveBetter",
     "file": "tip~08-07.json",
     "lang": "zh"
   },
@@ -20329,7 +20371,7 @@
   },
   {
     "path": "/tip/08-10",
-    "title": "起了冲突先报警不动手，先动手的那个几乎一定吃亏 | HowToLiveBetter",
+    "title": "起了冲突先报警不动手，先动手的那个容易让对方的还手算成正当防卫 | HowToLiveBetter",
     "file": "tip~08-10.json",
     "lang": "zh"
   },
@@ -20629,7 +20671,7 @@
   },
   {
     "path": "/tip/09-14",
-    "title": "不吃野味，不买卖、不养保护动物当宠物 | HowToLiveBetter",
+    "title": "不吃野味，不买卖、不养保护动物当宠物，野兰花、崖柏、红豆杉也别挖别买卖 | HowToLiveBetter",
     "file": "tip~09-14.json",
     "lang": "zh"
   },
@@ -20703,6 +20745,24 @@
     "path": "/tip/09-26",
     "title": "别为了防身买甩棍、电击器、匕首、辣椒水带在身上，放在车里也算携带 | HowToLiveBetter",
     "file": "tip~09-26.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/09-27",
+    "title": "捕鱼、钓鱼时，禁渔期和禁渔区不下网，任何时候都不电鱼、毒鱼、炸鱼，不用禁用渔具 | HowToLiveBetter",
+    "file": "tip~09-27.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/09-28",
+    "title": "上坟、烧荒、野炊时不在林区和草原点火，看到山火打 12119 或 119 | HowToLiveBetter",
+    "file": "tip~09-28.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/09-29",
+    "title": "考公、考研、考驾照和考职业资格时，不替人考、不找人替考，不买卖答案，不帮人组织作弊 | HowToLiveBetter",
+    "file": "tip~09-29.json",
     "lang": "zh"
   },
   {
@@ -20832,6 +20892,18 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/10-22",
+    "title": "配偶背着你拿夫妻共同的钱大额打赏主播、转给婚外的人：不离婚也能请求分割共同财产，转给婚外的人的钱可以起诉要回 | HowToLiveBetter",
+    "file": "tip~10-22.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/10-23",
+    "title": "有未成年孩子的夫妻离婚时，把孩子跟谁、每月抚养费多少、探望的方式和时间都写进离婚协议：写得越具体，离婚后越少再打官司 | HowToLiveBetter",
+    "file": "tip~10-23.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/11-01",
     "title": "动手前先问一句：厂商、平台、公司会不会去报案；被追究后马上找刑事律师 | HowToLiveBetter",
     "file": "tip~11-01.json",
@@ -20881,7 +20953,7 @@
   },
   {
     "path": "/tip/11-09",
-    "title": "没有书面授权不测别人的系统，「出于好意」和「事后上报」都不是出罪理由 | HowToLiveBetter",
+    "title": "没有书面授权不测别人的系统，「出于好意」和「事后上报」在法条里都不是出罪理由 | HowToLiveBetter",
     "file": "tip~11-09.json",
     "lang": "zh"
   },
@@ -20935,7 +21007,7 @@
   },
   {
     "path": "/tip/11-18",
-    "title": "不做、不发自动跳过或屏蔽别家 App 广告的工具，免费、不联网也可能被判不正当竞争 | HowToLiveBetter",
+    "title": "不做、不发自动跳过或屏蔽别家 App 广告的工具，免费也可能被判不正当竞争 | HowToLiveBetter",
     "file": "tip~11-18.json",
     "lang": "zh"
   },
@@ -20943,6 +21015,18 @@
     "path": "/tip/11-19",
     "title": "不搭「AI 中转站」低价转卖境外大模型接口：上海已有站长被刑事拘留 | HowToLiveBetter",
     "file": "tip~11-19.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/11-20",
+    "title": "不写、不卖、不传软件的破解补丁、注册机和破解版，卖钱够了数就按侵犯著作权罪判 | HowToLiveBetter",
+    "file": "tip~11-20.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/11-21",
+    "title": "不帮人发起 DDoS 流量攻击，不卖、不租「压力测试」打流量平台，打游戏输了也别去打对方的服务器 | HowToLiveBetter",
+    "file": "tip~11-21.json",
     "lang": "zh"
   },
   {
@@ -21007,7 +21091,7 @@
   },
   {
     "path": "/tip/12-11",
-    "title": "食品这一行有刑事线：卖病死肉、超标货就够罪，掺了有毒有害的不看金额、起刑五年 | HowToLiveBetter",
+    "title": "食品这一行有刑事线：卖病死肉、超标货就够罪，掺了有毒有害的不看金额、起刑五年以下 | HowToLiveBetter",
     "file": "tip~12-11.json",
     "lang": "zh"
   },
@@ -21025,7 +21109,7 @@
   },
   {
     "path": "/tip/12-14",
-    "title": "自称税务局催你交钱报税的都是骗子，办税只走电子税务局和 12366 | HowToLiveBetter",
+    "title": "自称税务局、打电话或发消息催你往指定账号交钱报税的都是骗子，办税只走电子税务局和 12366 | HowToLiveBetter",
     "file": "tip~12-14.json",
     "lang": "zh"
   },
@@ -21061,7 +21145,7 @@
   },
   {
     "path": "/tip/12-20",
-    "title": "进货一批留一批票据和上家信息，进货价明显低于市场价的不进：员工进的假货，老板是被判的那个 | HowToLiveBetter",
+    "title": "进货一批留一批票据和上家信息，进货价明显低于市场价的不进：员工替公司进的假货，算公司犯罪时老板也是被判的那个 | HowToLiveBetter",
     "file": "tip~12-20.json",
     "lang": "zh"
   },
@@ -21093,6 +21177,24 @@
     "path": "/tip/12-25",
     "title": "开公司、当个体户的，每年 1 月 1 日到 6 月 30 日上网报上一年的年报，没生意也要报，年报不收费 | HowToLiveBetter",
     "file": "tip~12-25.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/12-26",
+    "title": "找人凑钱做生意，只找亲友和员工当面谈，不在朋友圈、群里公开招人投钱，也别让亲友替你再去拉人 | HowToLiveBetter",
+    "file": "tip~12-26.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/12-27",
+    "title": "租铺面开店，签约前先查这间房能不能开你的店：住宅改成店要同一栋楼的业主全都同意，住宅楼里不能新开有油烟的餐馆 | HowToLiveBetter",
+    "file": "tip~12-27.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/12-28",
+    "title": "几个人合伙开店，开张前把出资、分钱、谁说了算、谁拿工资、怎么退出写成书面协议 | HowToLiveBetter",
+    "file": "tip~12-28.json",
     "lang": "zh"
   },
   {
@@ -21133,13 +21235,13 @@
   },
   {
     "path": "/tip/13-07",
-    "title": "胸口压着疼、闷、发紧超过 15 分钟不缓解，打 120，不要自己扛也不要自己开车 | HowToLiveBetter",
+    "title": "胸口压着疼、闷、发紧超过 15 分钟不缓解，或者疼时出冷汗、恶心、喘不上气，打 120，不要自己扛也不要自己开车 | HowToLiveBetter",
     "file": "tip~13-07.json",
     "lang": "zh"
   },
   {
     "path": "/tip/13-08",
-    "title": "突然像被撕开一样的剧痛，从胸口往后背、往腰一路挪，打 120 并说清「疼在移动」 | HowToLiveBetter",
+    "title": "突然像被撕开一样的剧痛，从胸口往后背、往腰一路挪，打 120 并说清「像撕开一样」 | HowToLiveBetter",
     "file": "tip~13-08.json",
     "lang": "zh"
   },
@@ -21187,7 +21289,7 @@
   },
   {
     "path": "/tip/13-16",
-    "title": "有人抽搐倒地，清开周围、让他侧躺、看表计时，什么都别往嘴里塞 | HowToLiveBetter",
+    "title": "有人抽搐倒地，清开周围、让他侧躺、看表计时，什么都别往嘴里塞；孩子发烧时抽搐也一样 | HowToLiveBetter",
     "file": "tip~13-16.json",
     "lang": "zh"
   },
@@ -21301,7 +21403,7 @@
   },
   {
     "path": "/tip/13-35",
-    "title": "野外的水一律烧开再喝，滚开一分钟就够，不用因为海拔高多煮 | HowToLiveBetter",
+    "title": "野外的水一律烧开再喝，滚开一分钟就够，常见的旅行海拔上不用因为海拔高多煮 | HowToLiveBetter",
     "file": "tip~13-35.json",
     "lang": "zh"
   },
@@ -21357,6 +21459,30 @@
     "path": "/tip/13-44",
     "title": "不满 1 岁的婴儿没反应、没正常呼吸，开免提打 120，做婴儿心肺复苏：按 30 下吹 2 口气 | HowToLiveBetter",
     "file": "tip~13-44.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/13-45",
+    "title": "孩子吞了纽扣电池，或者吞了两颗以上的强磁珠，立刻去有胃镜的医院急诊，别等它自己拉出来、别催吐 | HowToLiveBetter",
+    "file": "tip~13-45.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/13-46",
+    "title": "有人喝醉了，让他侧躺、有人一直守着，别让他一个人睡；叫不醒、呼吸慢或不规律、抽搐、身上发凉就打 120 | HowToLiveBetter",
+    "file": "tip~13-46.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/13-47",
+    "title": "手指、脚趾被切断，先压住伤口止血，断下来的部分用湿纱布包好装进密封袋，袋子放进冰水里，去有手外科的医院 | HowToLiveBetter",
+    "file": "tip~13-47.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/13-48",
+    "title": "恒牙（换牙之后长出来的牙）整颗撞掉，捏住牙冠冲一下，能放回去就放回去，放不回就泡在牛奶里，马上去看牙；乳牙别放回去 | HowToLiveBetter",
+    "file": "tip~13-48.json",
     "lang": "zh"
   },
   {
@@ -21417,6 +21543,18 @@
     "path": "/tip/14-10",
     "title": "别把代码、密钥和隐私资料交给来路不明的「AI 中转站」，让 AI 自动执行命令时尤其如此 | HowToLiveBetter",
     "file": "tip~14-10.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/14-11",
+    "title": "每年查一次自己名下有几张电话卡、几张银行卡，查出不是自己办的就去注销 | HowToLiveBetter",
+    "file": "tip~14-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/14-12",
+    "title": "换手机号、不用旧号之前，先把银行、支付和社交账号改绑到新号上，别让旧号欠费停机了事 | HowToLiveBetter",
+    "file": "tip~14-12.json",
     "lang": "zh"
   },
   {
@@ -21510,6 +21648,24 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/15-16",
+    "title": "买首套房要贷款的，先用住房公积金贷款，额度不够再加商业贷款做组合贷，别直接全做商业贷款 | HowToLiveBetter",
+    "file": "tip~15-16.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-17",
+    "title": "住小区被物业停水、停电、停暖、停气逼交物业费的，向当地房地产主管部门投诉；自己欠了物业费，物业只能催告、起诉或者申请仲裁 | HowToLiveBetter",
+    "file": "tip~15-17.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/15-18",
+    "title": "买新房收房时当场验房、把问题写进交房记录，漏水和水电管线出毛病，在《住宅质量保证书》的保修期内找开发商修 | HowToLiveBetter",
+    "file": "tip~15-18.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/16-01",
     "title": "药按医嘱吃满，别感觉好了就停 | HowToLiveBetter",
     "file": "tip~16-01.json",
@@ -21559,7 +21715,7 @@
   },
   {
     "path": "/tip/16-09",
-    "title": "确诊痛风就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持 | HowToLiveBetter",
+    "title": "确诊痛风后长了痛风石、影像上看到骨头被啃出缺损或每年发作 2 次以上的，就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持 | HowToLiveBetter",
     "file": "tip~16-09.json",
     "lang": "zh"
   },
@@ -21567,6 +21723,30 @@
     "path": "/tip/16-10",
     "title": "得过痛风的，吃烧烤、聚餐时别一顿吃下大量肉和海鲜，酒也要少喝 | HowToLiveBetter",
     "file": "tip~16-10.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/16-11",
+    "title": "查出乙肝表面抗原阳性的，每半年做一次肝脏 B 超加甲胎蛋白，按医生评估决定吃不吃抗病毒药，吃上了别自己停 | HowToLiveBetter",
+    "file": "tip~16-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/16-12",
+    "title": "确诊慢阻肺的，复诊时让医生或药师看你当面用一遍吸入剂；因为急性加重住过院的，出院后去做肺康复 | HowToLiveBetter",
+    "file": "tip~16-12.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/16-13",
+    "title": "有糖尿病的每年查一次尿白蛋白肌酐比和血肌酐，有高血压的也要查，早点发现慢性肾病 | HowToLiveBetter",
+    "file": "tip~16-13.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/16-14",
+    "title": "结肠癌做完手术和化疗的，参加有人指导的运动方案，坚持练满三年 | HowToLiveBetter",
+    "file": "tip~16-14.json",
     "lang": "zh"
   },
   {
@@ -21630,14 +21810,32 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/17-11",
+    "title": "送老人住养老院，先查它在民政部门备没备案、签书面协议；押金最多 12 个月床位费，要打进银行专用账户 | HowToLiveBetter",
+    "file": "tip~17-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/17-12",
+    "title": "独生子女的父母住院，查本省条例有没有给子女的护理假，有就带着住院证明向单位书面申请 | HowToLiveBetter",
+    "file": "tip~17-12.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/17-13",
+    "title": "老人记性越来越差、开始耽误过日子，带去医院的记忆门诊或者神经内科查一次，先排除抑郁、吃的药、听不清看不清这类能改的原因 | HowToLiveBetter",
+    "file": "tip~17-13.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/18-01",
-    "title": "先把能领的算进来：国家育儿补贴每孩每年 3600 元，发到 3 岁 | HowToLiveBetter",
+    "title": "先把能领的算进来：国家育儿补贴每孩每年 3600 元，发到 3 岁；个税专项附加扣除每孩每月 2000 元 | HowToLiveBetter",
     "file": "tip~18-01.json",
     "lang": "zh"
   },
   {
     "path": "/tip/18-02",
-    "title": "产假 98 天，生育津贴由生育保险基金按单位上年度职工月平均工资发 | HowToLiveBetter",
+    "title": "产假 98 天，生育津贴由生育保险基金按单位上年度职工月平均工资发；男方的陪产假和夫妻俩的育儿假按本省条例休 | HowToLiveBetter",
     "file": "tip~18-02.json",
     "lang": "zh"
   },
@@ -21666,6 +21864,12 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/18-07",
+    "title": "打算晚几年再生孩子的，先把女方的年龄这笔账算上：40 岁前后自然怀上的几率、试管婴儿的成功率都明显往下走 | HowToLiveBetter",
+    "file": "tip~18-07.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/19-01",
     "title": "加班费按 1.5 倍、2 倍、3 倍三档算，不给就投诉劳动监察，逾期不付还要加付 50% 到 100% | HowToLiveBetter",
     "file": "tip~19-01.json",
@@ -21691,7 +21895,7 @@
   },
   {
     "path": "/tip/19-05",
-    "title": "公司辞退你没提前 30 天通知，还要多付一个月工资 | HowToLiveBetter",
+    "title": "公司以病后干不了、不胜任或情况大变为由辞退你，没提前 30 天通知的，还要多付一个月工资 | HowToLiveBetter",
     "file": "tip~19-05.json",
     "lang": "zh"
   },
@@ -21721,7 +21925,7 @@
   },
   {
     "path": "/tip/19-10",
-    "title": "粉尘、噪声、化学毒物造成的损伤不可逆：防护用品单位必须给，没有防护措施的作业可以拒绝 | HowToLiveBetter",
+    "title": "粉尘、噪声、化学毒物造成的损伤不少是不可逆的（比如尘肺、噪声聋）：防护用品单位必须给，没有防护措施的作业可以拒绝 | HowToLiveBetter",
     "file": "tip~19-10.json",
     "lang": "zh"
   },
@@ -21777,6 +21981,36 @@
     "path": "/tip/19-19",
     "title": "换城市工作时，把养老和医保关系转到新参保地，缴费年限接着累计，别办退保 | HowToLiveBetter",
     "file": "tip~19-19.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/19-20",
+    "title": "入职满一个月单位还没和你签书面劳动合同，从第二个月起可以要双倍工资，最多 11 个月；满一年还不签，就算签了无固定期限合同 | HowToLiveBetter",
+    "file": "tip~19-20.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/19-21",
+    "title": "单位不交或少交社保，先投诉让它补缴；想因此辞职拿经济补偿，辞职通知里要写明是因为单位没依法缴社保 | HowToLiveBetter",
+    "file": "tip~19-21.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/19-22",
+    "title": "离职时公司要你赔违约金，先看是哪一种：只有专项培训的服务期和竞业限制能约定违约金，别的名目法律不许约定 | HowToLiveBetter",
+    "file": "tip~19-22.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/19-23",
+    "title": "单位要给你调岗、降薪，你不同意就当场书面提出来，别默不作声按新安排干上一个多月 | HowToLiveBetter",
+    "file": "tip~19-23.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/19-24",
+    "title": "被劳务派遣到别家公司干活的，工资要和同类岗位的正式工按同一套办法算，在干活的单位受了损害两家公司一起赔 | HowToLiveBetter",
+    "file": "tip~19-24.json",
     "lang": "zh"
   },
   {
@@ -21853,14 +22087,32 @@
   },
   {
     "path": "/tip/20-13",
-    "title": "盯住新生儿黄疸的几个信号：出生 24 小时内就黄、越来越黄、叫不醒不吃奶、大便发白，就当天去医院 | HowToLiveBetter",
+    "title": "盯住新生儿黄疸的几个信号：出生 24 小时内就黄、叫不醒不吃奶，就当天去医院；越来越黄、大便发白，就尽快去查 | HowToLiveBetter",
     "file": "tip~20-13.json",
     "lang": "zh"
   },
   {
     "path": "/tip/20-14",
-    "title": "怀孕、喂奶时在吃素，就每天补维生素 B12；孩子的辅食要有动物性食物，非要全素先找医生 | HowToLiveBetter",
+    "title": "怀孕、喂奶时在吃素，就补维生素 B12 或吃强化食品；孩子的辅食要有动物性食物，非要全素先找医生 | HowToLiveBetter",
     "file": "tip~20-14.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/20-15",
+    "title": "给婴儿添置东西时别买带轮子的学步车，想让他坐着玩就换成没轮子的游戏站台或游戏围栏 | HowToLiveBetter",
+    "file": "tip~20-15.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/20-16",
+    "title": "孩子出生后就每天喂 400 国际单位维生素 D，吃母乳的尤其别漏，足月的 6 个月内一般不用另补钙 | HowToLiveBetter",
+    "file": "tip~20-16.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/20-17",
+    "title": "给婴儿洗澡先放冷水再兑热水，用手腕内侧或手肘试过再放孩子；能设出水温度的热水器调到 50 ℃ 以下 | HowToLiveBetter",
+    "file": "tip~20-17.json",
     "lang": "zh"
   },
   {
@@ -21889,13 +22141,13 @@
   },
   {
     "path": "/tip/21-05",
-    "title": "「境外高薪招聘」一律当诈骗看，被骗去做电诈回来还要被限制出境 | HowToLiveBetter",
+    "title": "「境外高薪招聘」一律当诈骗看，被骗去做电诈回来还可能要被限制出境 | HowToLiveBetter",
     "file": "tip~21-05.json",
     "lang": "zh"
   },
   {
     "path": "/tip/21-06",
-    "title": "境外取现一年不能超过 10 万元人民币，是本人名下所有卡合起来算的 | HowToLiveBetter",
+    "title": "境外取现一年不能超过 10 万元人民币，是本人名下所有卡合起来算的；随身带现金出入境，人民币每次最多 2 万元，外币超过 5000 美元要向海关申报 | HowToLiveBetter",
     "file": "tip~21-06.json",
     "lang": "zh"
   },
@@ -21930,6 +22182,18 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/21-12",
+    "title": "出国带药先查目的地规定：含伪麻黄碱、可待因的感冒药和止咳药，安眠药、精神类药和强效止痛药，带原包装、处方或医生证明，只带自用量 | HowToLiveBetter",
+    "file": "tip~21-12.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/21-13",
+    "title": "从国外回国入境时别带肉制品（真空包装的火腿、肉干也算）、奶酪、新鲜水果和种子，带了动植物产品就走红色通道申报 | HowToLiveBetter",
+    "file": "tip~21-13.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/22-01",
     "title": "进 KTV、酒吧、密室之前先看一眼安全出口在哪，被锁被堵就换一家 | HowToLiveBetter",
     "file": "tip~22-01.json",
@@ -21961,7 +22225,7 @@
   },
   {
     "path": "/tip/22-06",
-    "title": "心情差就去走或者跑，抗抑郁的效应量（效果大小）跟强度成正比 | HowToLiveBetter",
+    "title": "心情差到抑郁的程度，就去走或者跑，抗抑郁的效应量（效果大小）跟强度成正比 | HowToLiveBetter",
     "file": "tip~22-06.json",
     "lang": "zh"
   },
@@ -21990,6 +22254,18 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/22-11",
+    "title": "喝了酒别泡温泉、蒸桑拿，回家也别泡热水澡 | HowToLiveBetter",
+    "file": "tip~22-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/22-12",
+    "title": "滑雪、滑单板、轮滑、骑山地车时戴头盔 | HowToLiveBetter",
+    "file": "tip~22-12.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/23-01",
     "title": "不满 16 周岁没有「去打工」这个选项：招你的单位每月被罚 5000 元，肯招的都是黑工 | HowToLiveBetter",
     "file": "tip~23-01.json",
@@ -22009,13 +22285,13 @@
   },
   {
     "path": "/tip/23-04",
-    "title": "「读不起」先按政策算一遍：中职学费大多已免，助学金 2300 元，助学贷款每年最高 2 万 | HowToLiveBetter",
+    "title": "「读不起」先按政策算一遍：公办中职学费对农村和困难学生大多已免，助学金 2300 元，助学贷款每年最高 2 万 | HowToLiveBetter",
     "file": "tip~23-04.json",
     "lang": "zh"
   },
   {
     "path": "/tip/23-05",
-    "title": "没考上普高不等于路断了：中职有贯通招生和单独考试，技能岗位招聘还可以降学历要求 | HowToLiveBetter",
+    "title": "没考上普高不等于路断了：中职有贯通招生和单独考试，事业单位技能岗位招聘还可以降学历要求 | HowToLiveBetter",
     "file": "tip~23-05.json",
     "lang": "zh"
   },
@@ -22129,7 +22405,7 @@
   },
   {
     "path": "/tip/23-24",
-    "title": "本科毕业要不要接着读硕士：先算学费和少挣的两三年工资，再看自己读的专业多挣不多挣 | HowToLiveBetter",
+    "title": "本科毕业要不要接着读硕士：先算学费和少挣的两三年工资，再看自己读的专业多挣不多挣；已经上班的可以读非全日制，证书和全日制效力相同 | HowToLiveBetter",
     "file": "tip~23-24.json",
     "lang": "zh"
   },
@@ -22189,7 +22465,7 @@
   },
   {
     "path": "/tip/24-09",
-    "title": "伤残鉴定要等治疗终结之后再做，做早了等级会评低 | HowToLiveBetter",
+    "title": "伤残鉴定要等治疗终结或者临床治疗效果稳定之后再做 | HowToLiveBetter",
     "file": "tip~24-09.json",
     "lang": "zh"
   },
@@ -22212,6 +22488,24 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/24-13",
+    "title": "医院说国家医保谈判药没货、不进院的，让医生开处方，去医保「双通道」定点药店买，照样按规定报销 | HowToLiveBetter",
+    "file": "tip~24-13.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/24-14",
+    "title": "在医院确诊过、病情稳定的慢性病要续方，可以在这家医院的互联网医院线上复诊开药，第一次看这个病不能在网上看 | HowToLiveBetter",
+    "file": "tip~24-14.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/24-15",
+    "title": "住院时要来费用清单逐项对，医保不报的自费项目先问清再同意，对不上先找医院价格投诉，再不行向医保部门举报 | HowToLiveBetter",
+    "file": "tip~24-15.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/25-01",
     "title": "人在家里或外面没了，先分清正常死亡还是非正常死亡：意外、死因不明、独居才发现的，立刻报警，遗体和现场不要动 | HowToLiveBetter",
     "file": "tip~25-01.json",
@@ -22231,7 +22525,7 @@
   },
   {
     "path": "/tip/25-04",
-    "title": "对死因有异议，48 小时内提出尸检，同时封存病历 | HowToLiveBetter",
+    "title": "对死因有异议，48 小时内提出并进行尸检，同时封存病历 | HowToLiveBetter",
     "file": "tip~25-04.json",
     "lang": "zh"
   },
@@ -22272,6 +22566,18 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/25-11",
+    "title": "亲人去世留下欠债，继承人只用继承到的遗产去还；不想担就在分遗产前书面声明放弃继承 | HowToLiveBetter",
+    "file": "tip~25-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/25-12",
+    "title": "家里人去世后办继承，别默认先去公证：一家银行 5 万元以内的存款直接去银行取，房子由全部继承人一起去不动产登记机构办 | HowToLiveBetter",
+    "file": "tip~25-12.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/26-01",
     "title": "平台不要自己收钱再转给卖家，让钱走持牌支付机构直接结算 | HowToLiveBetter",
     "file": "tip~26-01.json",
@@ -22291,7 +22597,7 @@
   },
   {
     "path": "/tip/26-04",
-    "title": "服务器放境内就要备案，接入商必须自己持有增值电信许可 | HowToLiveBetter",
+    "title": "服务器放境内就要备案，App 和小程序上架前也要备案，接入商必须自己持有增值电信许可 | HowToLiveBetter",
     "file": "tip~26-04.json",
     "lang": "zh"
   },
@@ -22338,6 +22644,18 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/26-12",
+    "title": "网站或 App 里的用户信息泄露了，马上补救，通知用户和主管部门，被人攻击的去公安报案 | HowToLiveBetter",
+    "file": "tip~26-12.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/26-13",
+    "title": "卖自动续费会员的，开通前和每次扣钱前都要显著提醒用户，取消入口要好找 | HowToLiveBetter",
+    "file": "tip~26-13.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/27-01",
     "title": "准备怀孕就开始每天补 0.4 毫克叶酸，一直吃到孕早期满 3 个月 | HowToLiveBetter",
     "file": "tip~27-01.json",
@@ -22351,7 +22669,7 @@
   },
   {
     "path": "/tip/27-03",
-    "title": "第一次产检就把艾滋病、梅毒、乙肝三项查掉，查出来也有免费的阻断 | HowToLiveBetter",
+    "title": "第一次产检就把艾滋病、梅毒、乙肝三项查掉，查出来艾滋病也有免费的阻断 | HowToLiveBetter",
     "file": "tip~27-03.json",
     "lang": "zh"
   },
@@ -22429,7 +22747,7 @@
   },
   {
     "path": "/tip/27-16",
-    "title": "产后 42 天那次复查别跳过，它同时是产后抑郁的筛查 | HowToLiveBetter",
+    "title": "产后 42 天那次复查别跳过，它在一些地方同时是产后抑郁的筛查 | HowToLiveBetter",
     "file": "tip~27-16.json",
     "lang": "zh"
   },
@@ -22437,6 +22755,24 @@
     "path": "/tip/27-17",
     "title": "怀孕了不用把猫送走，猫砂换别人每天铲，肉要做熟、碰土戴手套 | HowToLiveBetter",
     "file": "tip~27-17.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/27-18",
+    "title": "怀孕期间赶上流感季就打一针流感灭活疫苗，孕期哪个阶段都能打，别用鼻喷的 | HowToLiveBetter",
+    "file": "tip~27-18.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/27-19",
+    "title": "怀孕 28 周以后入睡时侧着躺，左侧右侧都行，别仰面躺着睡 | HowToLiveBetter",
+    "file": "tip~27-19.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/27-20",
+    "title": "生完孩子恢复同房就要避孕，喂奶不等于避孕；想要下一胎，至少隔 18 个月再怀 | HowToLiveBetter",
+    "file": "tip~27-20.json",
     "lang": "zh"
   },
   {
@@ -22471,7 +22807,7 @@
   },
   {
     "path": "/tip/28-06",
-    "title": "要吃减肥药就去医院拿处方，别在不用处方就发货的网店买 | HowToLiveBetter",
+    "title": "要吃减肥药、打司美格鲁肽这类减重针，就去医院拿处方、按医生安排加量和复查，别在不用处方就发货的网店买，也别去美容院打 | HowToLiveBetter",
     "file": "tip~28-06.json",
     "lang": "zh"
   },
@@ -22491,6 +22827,12 @@
     "path": "/tip/28-09",
     "title": "矫正牙齿要找有正畸资质的医生当面检查、按时复诊，别网购牙套自己在家戴 | HowToLiveBetter",
     "file": "tip~28-09.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/28-10",
+    "title": "买祛斑美白霜先拿包装上的「国妆特字」编号去国家药监局网站核对，别用微商卖的、美容院自己配的祛斑霜 | HowToLiveBetter",
+    "file": "tip~28-10.json",
     "lang": "zh"
   },
   {
@@ -22531,7 +22873,7 @@
   },
   {
     "path": "/tip/29-07",
-    "title": "家长去世后，如实告诉孩子、让他参加告别、别送去别处「换个环境」 | HowToLiveBetter",
+    "title": "家长去世后，如实告诉孩子、让他参加告别 | HowToLiveBetter",
     "file": "tip~29-07.json",
     "lang": "zh"
   },
@@ -22572,6 +22914,12 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/29-14",
+    "title": "自己经历车祸、被打、灾难之后，别指望出事后马上做的一次性心理晤谈；过了一个月噩梦、闪回、提心吊胆还很重的，去精神科做创伤聚焦的心理治疗 | HowToLiveBetter",
+    "file": "tip~29-14.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/30-01",
     "title": "孩子说突然剧痛、而且越来越重，立刻去医院，不要让他忍到放学 | HowToLiveBetter",
     "file": "tip~30-01.json",
@@ -22591,7 +22939,7 @@
   },
   {
     "path": "/tip/30-04",
-    "title": "让孩子每天在户外待够 2 小时，这是目前唯一有随机试验支持的防近视办法 | HowToLiveBetter",
+    "title": "让孩子每天在户外待够 2 小时，这是目前不花钱、不用药的办法里，唯一有随机试验支持的防近视办法 | HowToLiveBetter",
     "file": "tip~30-04.json",
     "lang": "zh"
   },
@@ -22680,8 +23028,26 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/30-19",
+    "title": "教孩子认识身体的隐私部位，被人碰了、被要求保密都要回家说；孩子说了先信、别骂，带去报警和就医 | HowToLiveBetter",
+    "file": "tip~30-19.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/30-20",
+    "title": "别让不满 12 周岁的孩子骑自行车上路、不满 16 周岁的骑电动自行车上路：撞了人父母赔，自己被撞也可能要担一部分 | HowToLiveBetter",
+    "file": "tip~30-20.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/30-21",
+    "title": "孩子运动时撞了头、之后头痛头晕或者发懵，当天别再上场；吐了又吐、越来越困、头痛越来越重，立刻去急诊 | HowToLiveBetter",
+    "file": "tip~30-21.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/31-01",
-    "title": "先把门槛对一遍：十二条路的年龄和学历要求都是明文写死的 | HowToLiveBetter",
+    "title": "先把门槛对一遍：十二条路的年龄和学历要求大多都是明文写死的 | HowToLiveBetter",
     "file": "tip~31-01.json",
     "lang": "zh"
   },
@@ -22699,7 +23065,7 @@
   },
   {
     "path": "/tip/31-04",
-    "title": "大学生当兵最实的两块：学费每年补最高 20000 元，学籍保留两年、考研有专项计划 | HowToLiveBetter",
+    "title": "大学生当兵最实的两块：学费每年补最高 20000 元，学籍保留到退役后两年、考研有专项计划 | HowToLiveBetter",
     "file": "tip~31-04.json",
     "lang": "zh"
   },
@@ -22735,7 +23101,7 @@
   },
   {
     "path": "/tip/31-10",
-    "title": "学历不是一锤子买卖：自考不限年龄和已受教育程度，成人高考和开放大学都能补 | HowToLiveBetter",
+    "title": "学历不是一锤子买卖：自考不限年龄和已受教育程度，成人高考和开放大学都能补，学历只认学信网查得到的，「免考包过」的学历提升班别报 | HowToLiveBetter",
     "file": "tip~31-10.json",
     "lang": "zh"
   },
@@ -22753,7 +23119,7 @@
   },
   {
     "path": "/tip/31-13",
-    "title": "高考填志愿那天就能锁定编制的两条路：公费师范生和定向医学生，代价是 6 年履约 | HowToLiveBetter",
+    "title": "高考填志愿那天就能基本锁定编制的两条路：公费师范生和定向医学生，代价是 6 年履约 | HowToLiveBetter",
     "file": "tip~31-13.json",
     "lang": "zh"
   },
@@ -22773,6 +23139,12 @@
     "path": "/tip/31-16",
     "title": "不进单位自己干，起步钱先看创业担保贷款：个人最高 30 万、财政贴一半利息 | HowToLiveBetter",
     "file": "tip~31-16.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/31-17",
+    "title": "毕业两年内还想考公务员的，签工作、转档案之前先查招考公告怎么认「应届生」：国考要档案和户口留在学校或人才服务机构 | HowToLiveBetter",
+    "file": "tip~31-17.json",
     "lang": "zh"
   },
   {
@@ -22831,8 +23203,20 @@
   },
   {
     "path": "/tip/32-10",
-    "title": "认证被「加强审查」的学校每年都在加，花钱买文凭这条路已经走不通 | HowToLiveBetter",
+    "title": "报名前在留服中心的公告里搜一次学校名，被「加强审查」的学校认证至少要等 60 个工作日 | HowToLiveBetter",
     "file": "tip~32-10.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/32-11",
+    "title": "美国：毕业后做 OPT 的，把没工作的天数记下来，累计不能超过 90 天，拿到 STEM 延期的合计不能超过 150 天 | HowToLiveBetter",
+    "file": "tip~32-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/32-12",
+    "title": "加拿大：申请学签之前，先通过学校拿到省级证明信（PAL/TAL），公立大学读硕士、博士的从 2026 年起不用 | HowToLiveBetter",
+    "file": "tip~32-12.json",
     "lang": "zh"
   },
   {
@@ -22843,7 +23227,7 @@
   },
   {
     "path": "/tip/33-02",
-    "title": "致残之后的头十年是自杀的高风险期，别当成「想开点」就行的事 | HowToLiveBetter",
+    "title": "脊髓损伤致残之后的头十年是自杀的高风险期，别当成「想开点」就行的事 | HowToLiveBetter",
     "file": "tip~33-02.json",
     "lang": "zh"
   },
@@ -22927,7 +23311,7 @@
   },
   {
     "path": "/tip/33-16",
-    "title": "康复在有康复医学科的正规机构做，强度听治疗师的，不是越猛越好 | HowToLiveBetter",
+    "title": "康复在有康复医学科的正规机构做，强度听治疗师的，不是越猛越好（证据来自中风） | HowToLiveBetter",
     "file": "tip~33-16.json",
     "lang": "zh"
   },
@@ -22956,14 +23340,20 @@
     "lang": "zh"
   },
   {
+    "path": "/tip/33-21",
+    "title": "脊髓损伤后尿不出来的，排尿方式和医生一起定，别长期插着尿管不管，终身定期查肾和膀胱 | HowToLiveBetter",
+    "file": "tip~33-21.json",
+    "lang": "zh"
+  },
+  {
     "path": "/tip/34-01",
-    "title": "同时吃两种感冒药或止痛药之前，先看成分表，对乙酰氨基酚只能占一种 | HowToLiveBetter",
+    "title": "同时吃两种感冒药或止痛药之前，先看成分表，对乙酰氨基酚只能占一种，吃多了没不舒服也当天去医院 | HowToLiveBetter",
     "file": "tip~34-01.json",
     "lang": "zh"
   },
   {
     "path": "/tip/34-02",
-    "title": "孩子发烧不用阿司匹林、尼美舒利和安乃近，含安乃近的感冒药也不给未成年人吃 | HowToLiveBetter",
+    "title": "孩子发烧不用阿司匹林、尼美舒利和安乃近，含安乃近的感冒药也不给未成年人吃，液体退烧药用药盒里配的量具量 | HowToLiveBetter",
     "file": "tip~34-02.json",
     "lang": "zh"
   },
@@ -23019,6 +23409,12 @@
     "path": "/tip/34-11",
     "title": "用头孢、甲硝唑这类抗菌药期间和停药后 7 天内不喝酒，藿香正气水、止咳糖浆这类含酒精的药也不碰 | HowToLiveBetter",
     "file": "tip~34-11.json",
+    "lang": "zh"
+  },
+  {
+    "path": "/tip/34-12",
+    "title": "吃了含氯苯那敏（扑尔敏）、苯海拉明的感冒药或抗过敏药，吃药期间别开车，也别登高干活、别操作机器 | HowToLiveBetter",
+    "file": "tip~34-12.json",
     "lang": "zh"
   },
   {
